@@ -1,0 +1,50 @@
+{
+  "id": "K36",
+  "title": "Разрыв активных групп до цели (основной)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "t - f",
+    "names": {
+      "t": 8000,
+      "f": 5057.898125
+    }
+  },
+  "inputs": {
+    "names.t": {
+      "ref": "F12",
+      "value": 8000
+    },
+    "names.f": {
+      "ref": "K29",
+      "value": 5057.898125
+    }
+  },
+  "result": {
+    "value": 2942.101875,
+    "unit": "",
+    "formula": "t - f",
+    "details": {
+      "inputs": {
+        "t": 8000,
+        "f": 5057.898125
+      }
+    }
+  },
+  "inputs_hash": "780e761e1d09aa8916ba21de992f8410d3c527acd69d443e1ba0fa485366de2a",
+  "computed_at": "2026-11-22T16:24:05Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 2842.5,
+    "computed_at": "2026-11-22T15:52:20Z",
+    "inputs": {
+      "names.t": {
+        "ref": "F12",
+        "value": 8000
+      },
+      "names.f": {
+        "ref": "K29",
+        "value": 5157.5
+      }
+    }
+  }
+}

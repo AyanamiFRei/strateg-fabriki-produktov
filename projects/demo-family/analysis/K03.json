@@ -1,0 +1,13 @@
+{
+ "title": "Нужная доля активных при 12 000 подключённых",
+ "fn": "required_share",
+ "args": {
+  "target": 0,
+  "base": 0
+ },
+ "inputs": {
+  "target": "F12",
+  "base": "F15"
+ },
+ "id": "K03"
+}

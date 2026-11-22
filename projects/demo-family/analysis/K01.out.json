@@ -1,0 +1,50 @@
+{
+  "id": "K01",
+  "title": "Чистый прирост групп до цели",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "t - s",
+    "names": {
+      "t": 12000,
+      "s": 6500
+    }
+  },
+  "inputs": {
+    "names.t": {
+      "ref": "F15",
+      "value": 12000
+    },
+    "names.s": {
+      "ref": "F13",
+      "value": 6500
+    }
+  },
+  "result": {
+    "value": 5500,
+    "unit": "",
+    "formula": "t - s",
+    "details": {
+      "inputs": {
+        "t": 12000,
+        "s": 6500
+      }
+    }
+  },
+  "inputs_hash": "470fe90de96eb3fd42de6eb8c3c32ebe0fefad1df31d97c6221b8683c2d34238",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "fact",
+  "previous": {
+    "value": 5500,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.t": {
+        "ref": "F15",
+        "value": 12000
+      },
+      "names.s": {
+        "ref": "F13",
+        "value": 6500
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "K56",
+  "title": "Охват доступных владельцев нескольких номеров на конец года",
+  "fn": "required_share",
+  "args": {
+    "target": 1000,
+    "base": 40000
+  },
+  "inputs": {
+    "target": {
+      "ref": "F16",
+      "value": 1000
+    },
+    "base": {
+      "ref": "F04",
+      "value": 40000
+    }
+  },
+  "result": {
+    "value": 0.025,
+    "unit": "доля",
+    "formula": "share = target / base",
+    "details": {
+      "target": 1000,
+      "base": 40000
+    }
+  },
+  "inputs_hash": "a55c8cbdf4e1ad5d0fc76d4d78e9fe7c620f44d6bd7292291f0267eea9276729",
+  "computed_at": "2026-11-22T16:10:00Z",
+  "kind": "fact"
+}

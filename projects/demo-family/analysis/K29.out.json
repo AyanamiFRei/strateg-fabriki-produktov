@@ -1,0 +1,60 @@
+{
+  "id": "K29",
+  "title": "Активные группы за последний месяц (основной)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "conn * share + extra",
+    "names": {
+      "conn": 8000,
+      "share": 0.625,
+      "extra": 57.898125
+    }
+  },
+  "inputs": {
+    "names.conn": {
+      "ref": "K28",
+      "value": 8000
+    },
+    "names.share": {
+      "ref": "K04",
+      "value": 0.625
+    },
+    "names.extra": {
+      "ref": "K47",
+      "value": 57.898125
+    }
+  },
+  "result": {
+    "value": 5057.898125,
+    "unit": "",
+    "formula": "conn * share + extra",
+    "details": {
+      "inputs": {
+        "conn": 8000,
+        "share": 0.625,
+        "extra": 57.898125
+      }
+    }
+  },
+  "inputs_hash": "c949f8c10b0bcad9cdfbf2098056e0a43aa53b163462ab326a1b83f686c43196",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 5157.5,
+    "computed_at": "2026-11-22T15:52:20Z",
+    "inputs": {
+      "names.conn": {
+        "ref": "K28",
+        "value": 8000
+      },
+      "names.share": {
+        "ref": "K04",
+        "value": 0.625
+      },
+      "names.extra": {
+        "ref": "K47",
+        "value": 157.5
+      }
+    }
+  }
+}

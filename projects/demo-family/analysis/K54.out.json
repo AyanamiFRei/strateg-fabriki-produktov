@@ -1,0 +1,36 @@
+{
+  "id": "K54",
+  "title": "Валовая прибыль планового года, неблагоприятный ход, млн руб.",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "b + d / 1000000",
+    "names": {
+      "b": 279,
+      "d": -200000
+    }
+  },
+  "inputs": {
+    "names.b": {
+      "ref": "F07",
+      "value": 279
+    },
+    "names.d": {
+      "ref": "K51",
+      "value": -200000
+    }
+  },
+  "result": {
+    "value": 278.8,
+    "unit": "",
+    "formula": "b + d / 1000000",
+    "details": {
+      "inputs": {
+        "b": 279,
+        "d": -200000
+      }
+    }
+  },
+  "inputs_hash": "19140456f42b4d918d35cc2e074b0d59afaf6f1e85b9aff6191ff1e509562ce9",
+  "computed_at": "2026-11-22T15:52:54Z",
+  "kind": "forecast"
+}

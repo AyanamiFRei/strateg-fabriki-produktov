@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "strateg": {
+      "command": "python3",
+      "args": [
+        "st.py",
+        "mcp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "K05",
+  "title": "Разрыв прибыли до цели, руб.",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "(t - b) * 1000000",
+    "names": {
+      "t": 285,
+      "b": 279
+    }
+  },
+  "inputs": {
+    "names.t": {
+      "ref": "F08",
+      "value": 285
+    },
+    "names.b": {
+      "ref": "F07",
+      "value": 279
+    }
+  },
+  "result": {
+    "value": 6000000,
+    "unit": "",
+    "formula": "(t - b) * 1000000",
+    "details": {
+      "inputs": {
+        "t": 285,
+        "b": 279
+      }
+    }
+  },
+  "inputs_hash": "78b246d8c02986d8670b2b11b16ca10649f489e15da9c5d5b991786c11b65d70",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "fact",
+  "previous": {
+    "value": 6000000,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.t": {
+        "ref": "F08",
+        "value": 285
+      },
+      "names.b": {
+        "ref": "F07",
+        "value": 279
+      }
+    }
+  }
+}

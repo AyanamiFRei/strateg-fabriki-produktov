@@ -1,0 +1,80 @@
+{
+  "id": "K47",
+  "title": "Доп. активных групп в последний месяц ≈ случаи на номерах пилотной половины × выделение по сигналу × иначе неактивны",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "g / 2 * m * f * a * (1 - share)",
+    "names": {
+      "g": 2058.6,
+      "m": 1.5,
+      "f": 0.2,
+      "a": 0.5,
+      "share": 0.625
+    }
+  },
+  "inputs": {
+    "names.g": {
+      "ref": "K43",
+      "value": 2058.6
+    },
+    "names.m": {
+      "ref": "A08",
+      "value": 1.5
+    },
+    "names.f": {
+      "ref": "A23",
+      "value": 0.2
+    },
+    "names.a": {
+      "ref": "A14",
+      "value": 0.5
+    },
+    "names.share": {
+      "ref": "K04",
+      "value": 0.625
+    }
+  },
+  "result": {
+    "value": 57.898125,
+    "unit": "",
+    "formula": "g / 2 * m * f * a * (1 - share)",
+    "details": {
+      "inputs": {
+        "g": 2058.6,
+        "m": 1.5,
+        "f": 0.2,
+        "a": 0.5,
+        "share": 0.625
+      }
+    }
+  },
+  "inputs_hash": "0e3a0286ea436cdf64ae64f257cec5ef4dfe9f5b105d9bcffbae7c8335c68fd9",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 157.5,
+    "computed_at": "2026-11-22T15:52:20Z",
+    "inputs": {
+      "names.pool": {
+        "ref": "K46",
+        "value": 2800.0
+      },
+      "names.m": {
+        "ref": "A08",
+        "value": 1.5
+      },
+      "names.f": {
+        "ref": "A23",
+        "value": 0.2
+      },
+      "names.a": {
+        "ref": "A14",
+        "value": 0.5
+      },
+      "names.share": {
+        "ref": "K04",
+        "value": 0.625
+      }
+    }
+  }
+}

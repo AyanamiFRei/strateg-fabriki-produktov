@@ -1,0 +1,60 @@
+{
+  "id": "K21",
+  "title": "Доп. оплаченных месяцев за счёт удержания (основной)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "av * u * m",
+    "names": {
+      "av": 37.0548,
+      "u": 0.03,
+      "m": 3
+    }
+  },
+  "inputs": {
+    "names.av": {
+      "ref": "K20",
+      "value": 37.0548
+    },
+    "names.u": {
+      "ref": "A10",
+      "value": 0.03
+    },
+    "names.m": {
+      "ref": "A11",
+      "value": 3
+    }
+  },
+  "result": {
+    "value": 3.334932,
+    "unit": "",
+    "formula": "av * u * m",
+    "details": {
+      "inputs": {
+        "av": 37.0548,
+        "u": 0.03,
+        "m": 3
+      }
+    }
+  },
+  "inputs_hash": "8a817aefb8681b894128533414620f2d01fdb00d2ca6d7225718ecb4117d17be",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 9.95085,
+    "computed_at": "2026-11-22T15:52:19Z",
+    "inputs": {
+      "names.av": {
+        "ref": "K20",
+        "value": 110.565
+      },
+      "names.u": {
+        "ref": "A10",
+        "value": 0.03
+      },
+      "names.m": {
+        "ref": "A11",
+        "value": 3
+      }
+    }
+  }
+}

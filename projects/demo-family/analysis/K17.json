@@ -1,0 +1,17 @@
+{
+ "title": "Групп войдёт в пилот за окно Q2 (конечная база)",
+ "fn": "pool_recruitment",
+ "args": {
+  "pool": 0,
+  "monthly_prob": 0,
+  "weeks": 0,
+  "inflow_per_week": 0
+ },
+ "inputs": {
+  "pool": "K11",
+  "monthly_prob": "A04",
+  "weeks": "A09",
+  "inflow_per_week": "K40"
+ },
+ "id": "K17"
+}

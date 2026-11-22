@@ -1,0 +1,50 @@
+{
+  "id": "K53",
+  "title": "Валовая прибыль планового года, основной ход, млн руб.",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "b + d / 1000000",
+    "names": {
+      "b": 279,
+      "d": -48332.534
+    }
+  },
+  "inputs": {
+    "names.b": {
+      "ref": "F07",
+      "value": 279
+    },
+    "names.d": {
+      "ref": "K25",
+      "value": -48332.534
+    }
+  },
+  "result": {
+    "value": 278.951667,
+    "unit": "",
+    "formula": "b + d / 1000000",
+    "details": {
+      "inputs": {
+        "b": 279,
+        "d": -48332.534
+      }
+    }
+  },
+  "inputs_hash": "7f830af76d3bba4cc38eb7fbcbe092d91dc24d38a5830ffac028f88d1c7e07de",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 278.954975,
+    "computed_at": "2026-11-22T15:52:54Z",
+    "inputs": {
+      "names.b": {
+        "ref": "F07",
+        "value": 279
+      },
+      "names.d": {
+        "ref": "K25",
+        "value": -45024.575
+      }
+    }
+  }
+}

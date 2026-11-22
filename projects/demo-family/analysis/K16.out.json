@@ -1,0 +1,50 @@
+{
+  "id": "K16",
+  "title": "Номеров на плечо при учёте всех подходящих номеров группы (n × DEFF)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "n * d",
+    "names": {
+      "n": 1638,
+      "d": 1.05
+    }
+  },
+  "inputs": {
+    "names.n": {
+      "ref": "K13",
+      "value": 1638
+    },
+    "names.d": {
+      "ref": "K14",
+      "value": 1.05
+    }
+  },
+  "result": {
+    "value": 1719.9,
+    "unit": "",
+    "formula": "n * d",
+    "details": {
+      "inputs": {
+        "n": 1638,
+        "d": 1.05
+      }
+    }
+  },
+  "inputs_hash": "0d9d445712da6f3ed50fb2c9a23da67935f7a112e9c9766d9f7de1cb7f7791a2",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 31.2,
+    "computed_at": "2026-11-22T15:51:55Z",
+    "inputs": {
+      "required": {
+        "ref": "K15",
+        "value": 3276
+      },
+      "rate_per_week": {
+        "ref": "K12",
+        "value": 105.0
+      }
+    }
+  }
+}

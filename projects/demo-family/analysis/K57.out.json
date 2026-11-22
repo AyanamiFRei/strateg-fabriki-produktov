@@ -1,0 +1,31 @@
+{
+  "id": "K57",
+  "title": "Подходящих групп для первого сценария от доступных домохозяйств (конец года)",
+  "fn": "required_share",
+  "args": {
+    "target": 2800.0,
+    "base": 100000
+  },
+  "inputs": {
+    "target": {
+      "ref": "K46",
+      "value": 2800.0
+    },
+    "base": {
+      "ref": "F03",
+      "value": 100000
+    }
+  },
+  "result": {
+    "value": 0.028,
+    "unit": "доля",
+    "formula": "share = target / base",
+    "details": {
+      "target": 2800.0,
+      "base": 100000
+    }
+  },
+  "inputs_hash": "07918741f6f2974f74efc82bd48b446dd7e435a395ad3e938b1100382379fadd",
+  "computed_at": "2026-11-22T16:10:00Z",
+  "kind": "forecast"
+}

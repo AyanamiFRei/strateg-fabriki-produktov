@@ -1,0 +1,56 @@
+{
+  "id": "K28",
+  "title": "Подключённые группы на конец года (основной)",
+  "fn": "stock_flow",
+  "args": {
+    "start": 6500,
+    "new": 2475,
+    "churn": 975
+  },
+  "inputs": {
+    "start": {
+      "ref": "F13",
+      "value": 6500
+    },
+    "new": {
+      "ref": "K26",
+      "value": 2475
+    },
+    "churn": {
+      "ref": "K27",
+      "value": 975
+    }
+  },
+  "result": {
+    "value": 8000,
+    "unit": "на конец периода",
+    "formula": "end = start + new - churn",
+    "details": {
+      "start": 6500,
+      "new": 2475,
+      "churn": 975,
+      "net": 1500
+    }
+  },
+  "inputs_hash": "72ff20c969d745bcb01620162fc07cddc7808ebb73b3f8c03499ae110c2309eb",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 8000,
+    "computed_at": "2026-11-22T15:51:56Z",
+    "inputs": {
+      "start": {
+        "ref": "F13",
+        "value": 6500
+      },
+      "new": {
+        "ref": "K26",
+        "value": 2475
+      },
+      "churn": {
+        "ref": "K27",
+        "value": 975
+      }
+    }
+  }
+}

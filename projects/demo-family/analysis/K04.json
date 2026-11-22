@@ -1,0 +1,13 @@
+{
+ "title": "Доля активных без изменений",
+ "fn": "required_share",
+ "args": {
+  "target": 0,
+  "base": 0
+ },
+ "inputs": {
+  "target": "F11",
+  "base": "F14"
+ },
+ "id": "K04"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "K62",
+  "title": "Создано групп через продажи",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "c * s",
+    "names": {
+      "c": 3535.714286,
+      "s": 0.3
+    }
+  },
+  "inputs": {
+    "names.c": {
+      "ref": "K48",
+      "value": 3535.714286
+    },
+    "names.s": {
+      "ref": "A37",
+      "value": 0.3
+    }
+  },
+  "result": {
+    "value": 1060.714286,
+    "unit": "",
+    "formula": "c * s",
+    "details": {
+      "inputs": {
+        "c": 3535.714286,
+        "s": 0.3
+      }
+    }
+  },
+  "inputs_hash": "7e748aaece0df1f0f49aff9cdda1aa15b704796ab332a4f9e1ef136c3d24b614",
+  "computed_at": "2026-11-22T16:48:44Z",
+  "kind": "forecast"
+}

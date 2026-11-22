@@ -1,0 +1,15 @@
+{
+ "title": "Доп. оплаченных месяцев для закрытия разрыва (с прямыми расходами)",
+ "fn": "break_even_months",
+ "args": {
+  "target_profit": 0,
+  "rate": 0,
+  "direct_costs": 0
+ },
+ "inputs": {
+  "target_profit": "K05",
+  "rate": "F20",
+  "direct_costs": "A13"
+ },
+ "id": "K06"
+}

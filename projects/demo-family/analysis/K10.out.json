@@ -1,0 +1,45 @@
+{
+  "id": "K10",
+  "title": "Охват доступных домохозяйств при цели",
+  "fn": "required_share",
+  "args": {
+    "target": 12000,
+    "base": 100000
+  },
+  "inputs": {
+    "target": {
+      "ref": "F15",
+      "value": 12000
+    },
+    "base": {
+      "ref": "F03",
+      "value": 100000
+    }
+  },
+  "result": {
+    "value": 0.12,
+    "unit": "доля",
+    "formula": "share = target / base",
+    "details": {
+      "target": 12000,
+      "base": 100000
+    }
+  },
+  "inputs_hash": "9147fd777277bb3fb3a0ee8ebcfcba1c6e41eff03cc996d43449b379d0b7ce28",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "fact",
+  "previous": {
+    "value": 0.12,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "target": {
+        "ref": "F15",
+        "value": 12000
+      },
+      "base": {
+        "ref": "F03",
+        "value": 100000
+      }
+    }
+  }
+}

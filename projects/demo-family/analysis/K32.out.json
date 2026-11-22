@@ -1,0 +1,50 @@
+{
+  "id": "K32",
+  "title": "Разрыв по владельцам нескольких номеров",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "t - n",
+    "names": {
+      "t": 2000,
+      "n": 1000
+    }
+  },
+  "inputs": {
+    "names.t": {
+      "ref": "F17",
+      "value": 2000
+    },
+    "names.n": {
+      "ref": "F16",
+      "value": 1000
+    }
+  },
+  "result": {
+    "value": 1000,
+    "unit": "",
+    "formula": "t - n",
+    "details": {
+      "inputs": {
+        "t": 2000,
+        "n": 1000
+      }
+    }
+  },
+  "inputs_hash": "9cbfc9258256fd1534505c80a561cb4caa2c118fb64da0a41d38e8d66fec438b",
+  "computed_at": "2026-11-22T15:52:20Z",
+  "kind": "fact",
+  "previous": {
+    "value": 1000,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.t": {
+        "ref": "F17",
+        "value": 2000
+      },
+      "names.n": {
+        "ref": "F16",
+        "value": 1000
+      }
+    }
+  }
+}

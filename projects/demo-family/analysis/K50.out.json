@@ -1,0 +1,50 @@
+{
+  "id": "K50",
+  "title": "Случаев ограничения на подходящую группу за месяц",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "x / pool",
+    "names": {
+      "x": 81.9,
+      "pool": 2275.0
+    }
+  },
+  "inputs": {
+    "names.x": {
+      "ref": "K49",
+      "value": 81.9
+    },
+    "names.pool": {
+      "ref": "K11",
+      "value": 2275.0
+    }
+  },
+  "result": {
+    "value": 0.036,
+    "unit": "",
+    "formula": "x / pool",
+    "details": {
+      "inputs": {
+        "x": 81.9,
+        "pool": 2275.0
+      }
+    }
+  },
+  "inputs_hash": "2161da6b79e8f65e5154e3d680bc7a3e6b85b289d2623ae29135031023b8ac9c",
+  "computed_at": "2026-11-22T16:24:13Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 0.036,
+    "computed_at": "2026-11-22T15:52:20Z",
+    "inputs": {
+      "names.x": {
+        "ref": "K49",
+        "value": 81.9
+      },
+      "names.pool": {
+        "ref": "K11",
+        "value": 2275.0
+      }
+    }
+  }
+}

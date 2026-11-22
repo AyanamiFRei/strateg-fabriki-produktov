@@ -1,0 +1,18 @@
+{
+ "title": "Приток новых подходящих групп в неделю",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "new * t * c / 52",
+  "names": {
+   "new": 0,
+   "t": 0,
+   "c": 0
+  }
+ },
+ "inputs": {
+  "names.new": "K26",
+  "names.t": "A02",
+  "names.c": "A03"
+ },
+ "id": "K40"
+}

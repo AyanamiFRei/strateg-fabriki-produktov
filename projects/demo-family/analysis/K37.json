@@ -1,0 +1,16 @@
+{
+ "title": "Активные группы при неблагоприятном ходе (эффекта сигнала нет)",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "conn * share",
+  "names": {
+   "conn": 0,
+   "share": 0
+  }
+ },
+ "inputs": {
+  "names.conn": "F14",
+  "names.share": "K04"
+ },
+ "id": "K37"
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+projects/.current
+projects/*/state/*.lock
+.claude/settings.local.json
+.DS_Store

@@ -1,0 +1,52 @@
+{
+  "id": "K13",
+  "title": "Размер пилота на плечо (1 номер на группу)",
+  "fn": "n_two_proportions",
+  "args": {
+    "p1": 0.12,
+    "p2": 0.09,
+    "alpha": 0.05,
+    "power": 0.8
+  },
+  "inputs": {
+    "p1": {
+      "ref": "A05",
+      "value": 0.12
+    },
+    "p2": {
+      "ref": "A06",
+      "value": 0.09
+    }
+  },
+  "result": {
+    "value": 1638,
+    "unit": "единиц наблюдения на плечо",
+    "formula": "n = [z(1-a/2)*sqrt(2*pbar*(1-pbar)) + z(1-b)*sqrt(p1(1-p1)+p2(1-p2))]^2 / (p1-p2)^2",
+    "details": {
+      "p1": 0.12,
+      "p2": 0.09,
+      "alpha": 0.05,
+      "power": 0.8,
+      "two_sided": true,
+      "diff_pp": -3.0,
+      "diff_rel": -0.25
+    }
+  },
+  "inputs_hash": "573493640e8d99303dcedcf9d8e3858b496d24a1a03fbefaca76c1b40d7d0dc1",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 1638,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "p1": {
+        "ref": "A05",
+        "value": 0.12
+      },
+      "p2": {
+        "ref": "A06",
+        "value": 0.09
+      }
+    }
+  }
+}

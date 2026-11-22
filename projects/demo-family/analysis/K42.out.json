@@ -1,0 +1,42 @@
+{
+  "id": "K42",
+  "title": "Эффективных номеров на плечо к концу Q2",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "g / 2 * m / d",
+    "names": {
+      "g": 619.0,
+      "m": 1.5,
+      "d": 1.05
+    }
+  },
+  "inputs": {
+    "names.g": {
+      "ref": "K17",
+      "value": 619.0
+    },
+    "names.m": {
+      "ref": "A08",
+      "value": 1.5
+    },
+    "names.d": {
+      "ref": "K14",
+      "value": 1.05
+    }
+  },
+  "result": {
+    "value": 442.142857,
+    "unit": "",
+    "formula": "g / 2 * m / d",
+    "details": {
+      "inputs": {
+        "g": 619.0,
+        "m": 1.5,
+        "d": 1.05
+      }
+    }
+  },
+  "inputs_hash": "539b540f6ed1e11bf67fd33843f69bfef464fce9a4ce47b9f60674877df4fec7",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast"
+}

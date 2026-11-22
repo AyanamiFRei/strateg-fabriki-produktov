@@ -1,0 +1,45 @@
+{
+  "id": "K04",
+  "title": "Доля активных без изменений",
+  "fn": "required_share",
+  "args": {
+    "target": 5000,
+    "base": 8000
+  },
+  "inputs": {
+    "target": {
+      "ref": "F11",
+      "value": 5000
+    },
+    "base": {
+      "ref": "F14",
+      "value": 8000
+    }
+  },
+  "result": {
+    "value": 0.625,
+    "unit": "доля",
+    "formula": "share = target / base",
+    "details": {
+      "target": 5000,
+      "base": 8000
+    }
+  },
+  "inputs_hash": "6fdf117b0b50415266cc685ddb815fd80c5562f812bde69ccd7a77bcff6573c8",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "fact",
+  "previous": {
+    "value": 0.625,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "target": {
+        "ref": "F11",
+        "value": 5000
+      },
+      "base": {
+        "ref": "F14",
+        "value": 8000
+      }
+    }
+  }
+}

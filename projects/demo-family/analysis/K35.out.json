@@ -1,0 +1,44 @@
+{
+  "id": "K35",
+  "title": "Разница порога в п.п. и %",
+  "fn": "pp_vs_relative",
+  "args": {
+    "p_before": 0.12,
+    "p_after": 0.09
+  },
+  "inputs": {
+    "p_before": {
+      "ref": "A05",
+      "value": 0.12
+    },
+    "p_after": {
+      "ref": "A06",
+      "value": 0.09
+    }
+  },
+  "result": {
+    "value": -3.0,
+    "unit": "п.п.",
+    "formula": "абсолютная = (после-до)*100 п.п.; относительная = (после-до)/до",
+    "details": {
+      "relative": -0.25
+    }
+  },
+  "inputs_hash": "55e298317d34b91c92e8c51fbf8122d34ca327c4686ba948f6afe50e88084f8a",
+  "computed_at": "2026-11-22T15:52:20Z",
+  "kind": "forecast",
+  "previous": {
+    "value": -3.0,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "p_before": {
+        "ref": "A05",
+        "value": 0.12
+      },
+      "p_after": {
+        "ref": "A06",
+        "value": 0.09
+      }
+    }
+  }
+}

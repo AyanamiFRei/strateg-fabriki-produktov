@@ -1,0 +1,18 @@
+{
+ "title": "Эффективных номеров на плечо к концу Q2",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "g / 2 * m / d",
+  "names": {
+   "g": 0,
+   "m": 0,
+   "d": 0
+  }
+ },
+ "inputs": {
+  "names.g": "K17",
+  "names.m": "A08",
+  "names.d": "K14"
+ },
+ "id": "K42"
+}

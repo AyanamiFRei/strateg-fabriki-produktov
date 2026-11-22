@@ -1,0 +1,50 @@
+{
+  "id": "K24",
+  "title": "Какую долю разрыва прибыли покрывает даже верхняя граница",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "up / gap",
+    "names": {
+      "up": 5832000.0,
+      "gap": 6000000
+    }
+  },
+  "inputs": {
+    "names.up": {
+      "ref": "K23",
+      "value": 5832000.0
+    },
+    "names.gap": {
+      "ref": "K05",
+      "value": 6000000
+    }
+  },
+  "result": {
+    "value": 0.972,
+    "unit": "",
+    "formula": "up / gap",
+    "details": {
+      "inputs": {
+        "up": 5832000.0,
+        "gap": 6000000
+      }
+    }
+  },
+  "inputs_hash": "4864a21663d46625373b2f815cefabacb4d487d692c672d7cf02970e64bb142f",
+  "computed_at": "2026-11-22T16:48:44Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 0.288,
+    "computed_at": "2026-11-22T16:24:04Z",
+    "inputs": {
+      "names.up": {
+        "ref": "K23",
+        "value": 1728000.0
+      },
+      "names.gap": {
+        "ref": "K05",
+        "value": 6000000
+      }
+    }
+  }
+}

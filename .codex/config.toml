@@ -1,0 +1,4 @@
+# Сгенерировано `python st.py sync` из AGENTS.md, agent/ и .agents/skills. Не редактируйте вручную.
+[mcp_servers.strateg]
+command = "python3"
+args = ["st.py", "mcp"]

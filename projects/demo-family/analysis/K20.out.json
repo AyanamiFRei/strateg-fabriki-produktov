@@ -1,0 +1,94 @@
+{
+  "id": "K20",
+  "title": "Предотвращённых ограничений в плановом году (пилотная половина, 50/50 до конца Q4)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "g / 2 * m * f * mo * p1 * (1 - p2 / p1)",
+    "names": {
+      "g": 2058.6,
+      "m": 1.5,
+      "f": 0.2,
+      "mo": 4,
+      "p1": 0.12,
+      "p2": 0.09
+    }
+  },
+  "inputs": {
+    "names.g": {
+      "ref": "K43",
+      "value": 2058.6
+    },
+    "names.m": {
+      "ref": "A08",
+      "value": 1.5
+    },
+    "names.f": {
+      "ref": "A23",
+      "value": 0.2
+    },
+    "names.mo": {
+      "ref": "A12",
+      "value": 4
+    },
+    "names.p1": {
+      "ref": "A05",
+      "value": 0.12
+    },
+    "names.p2": {
+      "ref": "A06",
+      "value": 0.09
+    }
+  },
+  "result": {
+    "value": 37.0548,
+    "unit": "",
+    "formula": "g / 2 * m * f * mo * p1 * (1 - p2 / p1)",
+    "details": {
+      "inputs": {
+        "g": 2058.6,
+        "m": 1.5,
+        "f": 0.2,
+        "mo": 4,
+        "p1": 0.12,
+        "p2": 0.09
+      }
+    }
+  },
+  "inputs_hash": "11c03a4e90fbce831a9d83ea127d8dea3d1ef5b3820eb7d0a9860ff2b6490cbc",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 110.565,
+    "computed_at": "2026-11-22T15:52:19Z",
+    "inputs": {
+      "names.pool": {
+        "ref": "K11",
+        "value": 2275.0
+      },
+      "names.m": {
+        "ref": "A08",
+        "value": 1.5
+      },
+      "names.f": {
+        "ref": "A23",
+        "value": 0.2
+      },
+      "names.mo": {
+        "ref": "A12",
+        "value": 6
+      },
+      "names.p1": {
+        "ref": "A05",
+        "value": 0.12
+      },
+      "names.p2": {
+        "ref": "A06",
+        "value": 0.09
+      },
+      "names.ctl": {
+        "ref": "A24",
+        "value": 0.1
+      }
+    }
+  }
+}

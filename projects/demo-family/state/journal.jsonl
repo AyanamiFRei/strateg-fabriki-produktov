@@ -1,0 +1,669 @@
+{"op": "init", "phase": "done", "op_id": "init:0bf7d5c4b4e4", "stage": "framing", "ts": "2026-11-22T15:35:23Z"}
+{"op_id": "source:f5550dd76662", "op": "source", "phase": "start", "inputs": {"file": "/tmp/brief-megafon.pdf", "url": null, "note": null, "day": null}, "ts": "2026-11-22T15:35:23Z", "stage": "framing"}
+{"op_id": "source:f5550dd76662", "op": "source", "phase": "done", "inputs": {"file": "/tmp/brief-megafon.pdf", "url": null, "note": null, "day": null}, "artifacts": [{"path": "evidence/raw/S01.md", "sha256": "1eeeb97f13154f45ff2403b0327154db389e15bcd63b70d35afa5f25fb48c1b7"}], "note": "S01", "ts": "2026-11-22T15:35:23Z", "stage": "framing"}
+{"op": "resume", "op_id": "resume:f283c823850c", "phase": "done", "ts": "2026-11-22T15:35:23Z", "stage": "framing"}
+{"op_id": "source:86bf5f70a52a", "op": "source", "phase": "start", "inputs": {"file": "projects/demo-family/materials/web/mts-my-mts.txt", "url": null, "note": null, "day": null}, "ts": "2026-11-22T15:36:23Z", "stage": "framing"}
+{"op_id": "source:86bf5f70a52a", "op": "source", "phase": "done", "inputs": {"file": "projects/demo-family/materials/web/mts-my-mts.txt", "url": null, "note": null, "day": null}, "artifacts": [{"path": "evidence/raw/S02.md", "sha256": "1f30bcce13369251764afca2448daba653cd2565291a70cbe5093a9684d1acf8"}], "note": "S02", "ts": "2026-11-22T15:36:23Z", "stage": "framing"}
+{"op_id": "source:34f8d0a21410", "op": "source", "phase": "start", "inputs": {"file": "projects/demo-family/materials/web/megafon-share-growth.txt", "url": null, "note": null, "day": null}, "ts": "2026-11-22T15:36:24Z", "stage": "framing"}
+{"op_id": "source:34f8d0a21410", "op": "source", "phase": "done", "inputs": {"file": "projects/demo-family/materials/web/megafon-share-growth.txt", "url": null, "note": null, "day": null}, "artifacts": [{"path": "evidence/raw/S03.md", "sha256": "eb903a56b07f71ec0966533b3ea319b19337a770df3d6833c9b587620362cfd1"}], "note": "S03", "ts": "2026-11-22T15:36:24Z", "stage": "framing"}
+{"op_id": "source:2fc76b04224a", "op": "source", "phase": "start", "inputs": {"file": "projects/demo-family/materials/web/megafon-roles-2026.txt", "url": null, "note": null, "day": null}, "ts": "2026-11-22T15:36:24Z", "stage": "framing"}
+{"op_id": "source:2fc76b04224a", "op": "source", "phase": "done", "inputs": {"file": "projects/demo-family/materials/web/megafon-roles-2026.txt", "url": null, "note": null, "day": null}, "artifacts": [{"path": "evidence/raw/S04.md", "sha256": "684cd70d4b7f00d7cebf74849a53a75b1cbbf901c856ecebcd6015e6759700c2"}], "note": "S04", "ts": "2026-11-22T15:36:24Z", "stage": "framing"}
+{"op": "gate", "op_id": "gate:740587419cdd", "phase": "gate", "stage": "framing", "note": "ждём человека", "warnings": 0, "ts": "2026-11-22T15:38:25Z"}
+{"op": "human_gate", "op_id": "approve:8c535f2a0b53", "phase": "done", "stage": "framing", "note": "[по умолчанию: в демо-прогоне руководитель не отвечал вживую] постановка принята: два решения (Q1 пилот, Q2 охват), первый сценарий — семьи", "origin": "human", "ts": "2026-11-22T15:38:30Z"}
+{"op": "gate", "op_id": "gate:8c535f2a0b53", "phase": "done", "stage": "framing", "warnings": 0, "ts": "2026-11-22T15:38:30Z"}
+{"op_id": "claim:df4f0752c67a", "op": "claim", "phase": "done", "note": "F01", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:ec463b62f6f2", "op": "claim", "phase": "done", "note": "F02", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:215ed8ac31ef", "op": "claim", "phase": "done", "note": "F03", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:7568d6020f39", "op": "claim", "phase": "done", "note": "F04", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:8c124e4ca2dd", "op": "claim", "phase": "done", "note": "F05", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:4da1c1d49183", "op": "claim", "phase": "done", "note": "F06", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:5f5bc01c6d32", "op": "claim", "phase": "done", "note": "F07", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:8515d2969fb0", "op": "claim", "phase": "done", "note": "F08", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:bb91f6800582", "op": "claim", "phase": "done", "note": "F09", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:ff396a927a3a", "op": "claim", "phase": "done", "note": "F10", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:d2c2247a8a85", "op": "claim", "phase": "done", "note": "F11", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:28049492fe99", "op": "claim", "phase": "done", "note": "F12", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:b154008e48b5", "op": "claim", "phase": "done", "note": "F13", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:728a55d19acd", "op": "claim", "phase": "done", "note": "F14", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:cf6fc03af280", "op": "claim", "phase": "done", "note": "F15", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:99a3b2ffae51", "op": "claim", "phase": "done", "note": "F16", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:57c693d86203", "op": "claim", "phase": "done", "note": "F17", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:43e798b2fd06", "op": "claim", "phase": "done", "note": "F18", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:2cb52785b98c", "op": "claim", "phase": "done", "note": "F19", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:1b8bcc6d4652", "op": "claim", "phase": "done", "note": "F20", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:a7d213aa141f", "op": "claim", "phase": "done", "note": "F21", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:954a02524925", "op": "claim", "phase": "done", "note": "F22", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:fefe105c13fc", "op": "claim", "phase": "done", "note": "F23", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:0abdc3838dd7", "op": "claim", "phase": "done", "note": "F24", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:89b0e2337bc6", "op": "claim", "phase": "done", "note": "F25", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:2731d489fd90", "op": "claim", "phase": "done", "note": "F26", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:1f1ed699180d", "op": "claim", "phase": "done", "note": "F27", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:736fc794583a", "op": "claim", "phase": "done", "note": "F28", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:18c29474691a", "op": "claim", "phase": "done", "note": "F29", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:e82003f416d0", "op": "claim", "phase": "done", "note": "F30", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:f2eb1ecdfc17", "op": "claim", "phase": "done", "note": "F31", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:e425eab9f88f", "op": "claim", "phase": "done", "note": "F32", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:a3b2e3f43381", "op": "claim", "phase": "done", "note": "F33", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:a6272cfa7af7", "op": "claim", "phase": "done", "note": "F34", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:4f30ea6cb350", "op": "claim", "phase": "done", "note": "F35", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:c4ce028c60c2", "op": "claim", "phase": "done", "note": "F36", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:d18837b84b42", "op": "claim", "phase": "done", "note": "F37", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:59494c5c74e1", "op": "claim", "phase": "done", "note": "F38", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:a3c0e8d6ad1d", "op": "claim", "phase": "done", "note": "F39", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:2f26f790935c", "op": "claim", "phase": "done", "note": "F40", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:cc67e755bda2", "op": "claim", "phase": "done", "note": "F41", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:0e5ac9086dfc", "op": "claim", "phase": "done", "note": "F42", "ts": "2026-11-22T15:38:30Z", "stage": "collect"}
+{"op_id": "claim:4db518fefafe", "op": "claim", "phase": "done", "note": "A01", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:f4967fcc0d1e", "op": "claim", "phase": "done", "note": "A02", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:fadbaeb1b2a4", "op": "claim", "phase": "done", "note": "A03", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:4af79f9a3896", "op": "claim", "phase": "done", "note": "A04", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:29e667401cb3", "op": "claim", "phase": "done", "note": "A05", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:0b22ba8a7fac", "op": "claim", "phase": "done", "note": "A06", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:c531e1695d43", "op": "claim", "phase": "done", "note": "A07", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:b896520cb851", "op": "claim", "phase": "done", "note": "A08", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:3adeef537a68", "op": "claim", "phase": "done", "note": "A09", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:39c24095c0b0", "op": "claim", "phase": "done", "note": "A10", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:5a5cf39fe202", "op": "claim", "phase": "done", "note": "A11", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:4a047e3fb09d", "op": "claim", "phase": "done", "note": "A12", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:92a12177ed9f", "op": "claim", "phase": "done", "note": "A13", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:f7b9d986dac4", "op": "claim", "phase": "done", "note": "A14", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:63b19c683bcf", "op": "claim", "phase": "done", "note": "A15", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:443c9650e817", "op": "claim", "phase": "done", "note": "A16", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:585fa66a6997", "op": "claim", "phase": "done", "note": "A17", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:084ca8e6ab4d", "op": "claim", "phase": "done", "note": "A18", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:d2fdd6f0163d", "op": "claim", "phase": "done", "note": "A19", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:7a412d704989", "op": "claim", "phase": "done", "note": "A20", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:0fd578487aeb", "op": "claim", "phase": "done", "note": "A21", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:fc3ef91d3a4a", "op": "claim", "phase": "done", "note": "A22", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:196583267847", "op": "claim", "phase": "done", "note": "H01", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:a506292ea48e", "op": "claim", "phase": "done", "note": "H02", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:a56174eebed2", "op": "claim", "phase": "done", "note": "H03", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:3d06c71f9bca", "op": "claim", "phase": "done", "note": "H04", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:abfddfb2396f", "op": "claim", "phase": "done", "note": "H05", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op_id": "claim:529df42f3596", "op": "claim", "phase": "done", "note": "H06", "ts": "2026-11-22T15:38:59Z", "stage": "collect"}
+{"op": "gate", "op_id": "gate:040b5743aff6", "phase": "done", "stage": "collect", "warnings": 0, "ts": "2026-11-22T15:38:59Z"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "start", "note": "K01", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "done", "note": "K01", "artifacts": [{"path": "analysis/K01.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "start", "note": "K02", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "done", "note": "K02", "artifacts": [{"path": "analysis/K02.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "start", "note": "K03", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "done", "note": "K03", "artifacts": [{"path": "analysis/K03.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "start", "note": "K04", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "done", "note": "K04", "artifacts": [{"path": "analysis/K04.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "start", "note": "K05", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "done", "note": "K05", "artifacts": [{"path": "analysis/K05.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "start", "note": "K06", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "done", "note": "K06", "artifacts": [{"path": "analysis/K06.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "start", "note": "K07", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "done", "note": "K07", "artifacts": [{"path": "analysis/K07.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "start", "note": "K08", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "done", "note": "K08", "artifacts": [{"path": "analysis/K08.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "start", "note": "K09", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "done", "note": "K09", "artifacts": [{"path": "analysis/K09.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "start", "note": "K10", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "done", "note": "K10", "artifacts": [{"path": "analysis/K10.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "start", "note": "K11", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "done", "note": "K11", "artifacts": [{"path": "analysis/K11.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "start", "note": "K12", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "done", "note": "K12", "artifacts": [{"path": "analysis/K12.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "start", "note": "K13", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "done", "note": "K13", "artifacts": [{"path": "analysis/K13.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "start", "note": "K14", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "done", "note": "K14", "artifacts": [{"path": "analysis/K14.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "start", "note": "K15", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "done", "note": "K15", "artifacts": [{"path": "analysis/K15.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:f1ce8d7b905b", "op": "calc", "phase": "start", "note": "K16", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:f1ce8d7b905b", "op": "calc", "phase": "done", "note": "K16", "artifacts": [{"path": "analysis/K16.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:02c28217e262", "op": "calc", "phase": "start", "note": "K17", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:02c28217e262", "op": "calc", "phase": "done", "note": "K17", "artifacts": [{"path": "analysis/K17.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:d28169e78107", "op": "calc", "phase": "start", "note": "K18", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:d28169e78107", "op": "calc", "phase": "done", "note": "K18", "artifacts": [{"path": "analysis/K18.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:6d74617e04d7", "op": "calc", "phase": "start", "note": "K19", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:6d74617e04d7", "op": "calc", "phase": "done", "note": "K19", "artifacts": [{"path": "analysis/K19.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:ecb61bb613f4", "op": "calc", "phase": "start", "note": "K20", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:ecb61bb613f4", "op": "calc", "phase": "done", "note": "K20", "artifacts": [{"path": "analysis/K20.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:0c9038dd7477", "op": "calc", "phase": "start", "note": "K21", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:0c9038dd7477", "op": "calc", "phase": "done", "note": "K21", "artifacts": [{"path": "analysis/K21.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:acfb8bb865ae", "op": "calc", "phase": "start", "note": "K22", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:acfb8bb865ae", "op": "calc", "phase": "done", "note": "K22", "artifacts": [{"path": "analysis/K22.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:3afc2d1cdcfd", "op": "calc", "phase": "start", "note": "K23", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:3afc2d1cdcfd", "op": "calc", "phase": "done", "note": "K23", "artifacts": [{"path": "analysis/K23.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:0644d3c9da4a", "op": "calc", "phase": "start", "note": "K24", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:0644d3c9da4a", "op": "calc", "phase": "done", "note": "K24", "artifacts": [{"path": "analysis/K24.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:00297c118f2b", "op": "calc", "phase": "start", "note": "K25", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:00297c118f2b", "op": "calc", "phase": "done", "note": "K25", "artifacts": [{"path": "analysis/K25.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "start", "note": "K26", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "done", "note": "K26", "artifacts": [{"path": "analysis/K26.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:e27921377c79", "op": "calc", "phase": "start", "note": "K27", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:e27921377c79", "op": "calc", "phase": "done", "note": "K27", "artifacts": [{"path": "analysis/K27.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:548579ec6a67", "op": "calc", "phase": "start", "note": "K28", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:548579ec6a67", "op": "calc", "phase": "done", "note": "K28", "artifacts": [{"path": "analysis/K28.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:3da2957ce4b4", "op": "calc", "phase": "start", "note": "K29", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:3da2957ce4b4", "op": "calc", "phase": "done", "note": "K29", "artifacts": [{"path": "analysis/K29.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:29dce182cef9", "op": "calc", "phase": "start", "note": "K30", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:29dce182cef9", "op": "calc", "phase": "done", "note": "K30", "artifacts": [{"path": "analysis/K30.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:88d2b380ed47", "op": "calc", "phase": "start", "note": "K31", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:88d2b380ed47", "op": "calc", "phase": "done", "note": "K31", "artifacts": [{"path": "analysis/K31.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "start", "note": "K32", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "done", "note": "K32", "artifacts": [{"path": "analysis/K32.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "start", "note": "K33", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "done", "note": "K33", "artifacts": [{"path": "analysis/K33.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "start", "note": "K34", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "done", "note": "K34", "artifacts": [{"path": "analysis/K34.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "start", "note": "K35", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "done", "note": "K35", "artifacts": [{"path": "analysis/K35.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:3cd40e890493", "op": "calc", "phase": "start", "note": "K36", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:3cd40e890493", "op": "calc", "phase": "done", "note": "K36", "artifacts": [{"path": "analysis/K36.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "start", "note": "K37", "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "done", "note": "K37", "artifacts": [{"path": "analysis/K37.out.json"}], "ts": "2026-11-22T15:39:32Z", "stage": "diagnosis"}
+{"op_id": "claim:25bdf12e38f3", "op": "claim", "phase": "done", "note": "I01", "ts": "2026-11-22T15:39:49Z", "stage": "diagnosis"}
+{"op_id": "claim:283c2877b88a", "op": "claim", "phase": "done", "note": "I02", "ts": "2026-11-22T15:39:49Z", "stage": "diagnosis"}
+{"op_id": "claim:cd3ed9f06c0e", "op": "claim", "phase": "done", "note": "I03", "ts": "2026-11-22T15:39:49Z", "stage": "diagnosis"}
+{"op_id": "claim:e0ea9d464969", "op": "claim", "phase": "done", "note": "I04", "ts": "2026-11-22T15:39:49Z", "stage": "diagnosis"}
+{"op_id": "claim:531ec0129218", "op": "claim", "phase": "done", "note": "I05", "ts": "2026-11-22T15:39:49Z", "stage": "diagnosis"}
+{"op_id": "claim:593b9adf902b", "op": "claim", "phase": "done", "note": "I06", "ts": "2026-11-22T15:39:49Z", "stage": "diagnosis"}
+{"op": "gate", "op_id": "gate:d2d4ae21c1cd", "phase": "done", "stage": "diagnosis", "warnings": 0, "ts": "2026-11-22T15:40:28Z"}
+{"op_id": "claim:87dfaad73192", "op": "claim", "phase": "done", "note": "H07", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:8ee2992532eb", "op": "claim", "phase": "done", "note": "H08", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:c2c8f8b22d97", "op": "claim", "phase": "done", "note": "H09", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:dbb1b383de92", "op": "claim", "phase": "done", "note": "H10", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:0ed4f478e40c", "op": "claim", "phase": "done", "note": "Y01", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:7449e1560712", "op": "claim", "phase": "done", "note": "Y02", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:8190abe90958", "op": "claim", "phase": "done", "note": "Y03", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:db521ab24226", "op": "claim", "phase": "done", "note": "Y04", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:b6d518b85c5b", "op": "claim", "phase": "done", "note": "Y05", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:73b392d7be9d", "op": "claim", "phase": "done", "note": "Y06", "ts": "2026-11-22T15:47:28Z", "stage": "options"}
+{"op_id": "claim:213379eeac67", "op": "claim", "phase": "done", "note": "A04", "ts": "2026-11-22T15:51:53Z", "stage": "options"}
+{"op_id": "claim:53cf79b657fd", "op": "claim", "phase": "done", "note": "A14", "ts": "2026-11-22T15:51:53Z", "stage": "options"}
+{"op_id": "claim:a2881fef9789", "op": "claim", "phase": "done", "note": "A15", "ts": "2026-11-22T15:51:53Z", "stage": "options"}
+{"op_id": "claim:66e38b2ae370", "op": "claim", "phase": "done", "note": "A23", "ts": "2026-11-22T15:51:53Z", "stage": "options"}
+{"op_id": "claim:0c949ae2aa1f", "op": "claim", "phase": "done", "note": "A24", "ts": "2026-11-22T15:51:53Z", "stage": "options"}
+{"op_id": "claim:62804da95939", "op": "claim", "phase": "done", "note": "A25", "ts": "2026-11-22T15:51:53Z", "stage": "options"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "start", "note": "K12", "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "done", "note": "K12", "artifacts": [{"path": "analysis/K12.out.json"}], "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:f1ce8d7b905b", "op": "calc", "phase": "start", "note": "K16", "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:f1ce8d7b905b", "op": "calc", "phase": "done", "note": "K16", "artifacts": [{"path": "analysis/K16.out.json"}], "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:02c28217e262", "op": "calc", "phase": "start", "note": "K17", "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:02c28217e262", "op": "calc", "phase": "done", "note": "K17", "artifacts": [{"path": "analysis/K17.out.json"}], "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:d28169e78107", "op": "calc", "phase": "start", "note": "K18", "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:d28169e78107", "op": "calc", "phase": "done", "note": "K18", "artifacts": [{"path": "analysis/K18.out.json"}], "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:ecb61bb613f4", "op": "calc", "phase": "start", "note": "K20", "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:ecb61bb613f4", "op": "calc", "phase": "done", "note": "K20", "artifacts": [{"path": "analysis/K20.out.json"}], "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:0c9038dd7477", "op": "calc", "phase": "start", "note": "K21", "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:0c9038dd7477", "op": "calc", "phase": "done", "note": "K21", "artifacts": [{"path": "analysis/K21.out.json"}], "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:acfb8bb865ae", "op": "calc", "phase": "start", "note": "K22", "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:acfb8bb865ae", "op": "calc", "phase": "done", "note": "K22", "artifacts": [{"path": "analysis/K22.out.json"}], "ts": "2026-11-22T15:51:55Z", "stage": "options"}
+{"op_id": "calc:0644d3c9da4a", "op": "calc", "phase": "start", "note": "K24", "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:0644d3c9da4a", "op": "calc", "phase": "done", "note": "K24", "artifacts": [{"path": "analysis/K24.out.json"}], "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:00297c118f2b", "op": "calc", "phase": "start", "note": "K25", "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:00297c118f2b", "op": "calc", "phase": "done", "note": "K25", "artifacts": [{"path": "analysis/K25.out.json"}], "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "start", "note": "K27", "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "done", "note": "K27", "artifacts": [{"path": "analysis/K27.out.json"}], "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "start", "note": "K28", "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "done", "note": "K28", "artifacts": [{"path": "analysis/K28.out.json"}], "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:666385aefc2f", "op": "calc", "phase": "start", "note": "K29", "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:666385aefc2f", "op": "calc", "phase": "done", "note": "K29", "artifacts": [{"path": "analysis/K29.out.json"}], "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:edba7f0bf89c", "op": "calc", "phase": "start", "note": "K36", "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:edba7f0bf89c", "op": "calc", "phase": "done", "note": "K36", "artifacts": [{"path": "analysis/K36.out.json"}], "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op": "impact", "op_id": "impact:fcb3e0461371", "phase": "done", "note": "IMPACT-2026-11-22.md", "artifacts": [{"path": "deliverables/IMPACT-2026-11-22.md", "sha256": "822675f2337c6791758dfa6218a2921101ce10e6c909354e9ea944afde5a1f8d"}], "ts": "2026-11-22T15:51:56Z", "stage": "options"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "start", "note": "K01", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "done", "note": "K01", "artifacts": [{"path": "analysis/K01.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "start", "note": "K02", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "done", "note": "K02", "artifacts": [{"path": "analysis/K02.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "start", "note": "K03", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "done", "note": "K03", "artifacts": [{"path": "analysis/K03.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "start", "note": "K04", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "done", "note": "K04", "artifacts": [{"path": "analysis/K04.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "start", "note": "K05", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "done", "note": "K05", "artifacts": [{"path": "analysis/K05.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "start", "note": "K06", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "done", "note": "K06", "artifacts": [{"path": "analysis/K06.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "start", "note": "K07", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "done", "note": "K07", "artifacts": [{"path": "analysis/K07.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "start", "note": "K08", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "done", "note": "K08", "artifacts": [{"path": "analysis/K08.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "start", "note": "K09", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "done", "note": "K09", "artifacts": [{"path": "analysis/K09.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "start", "note": "K10", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "done", "note": "K10", "artifacts": [{"path": "analysis/K10.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "start", "note": "K11", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "done", "note": "K11", "artifacts": [{"path": "analysis/K11.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "start", "note": "K12", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "done", "note": "K12", "artifacts": [{"path": "analysis/K12.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "start", "note": "K13", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "done", "note": "K13", "artifacts": [{"path": "analysis/K13.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "start", "note": "K14", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "done", "note": "K14", "artifacts": [{"path": "analysis/K14.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "start", "note": "K15", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "done", "note": "K15", "artifacts": [{"path": "analysis/K15.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:3a57bd8b5421", "op": "calc", "phase": "start", "note": "K16", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:3a57bd8b5421", "op": "calc", "phase": "done", "note": "K16", "artifacts": [{"path": "analysis/K16.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "start", "note": "K26", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "done", "note": "K26", "artifacts": [{"path": "analysis/K26.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:2675591074b1", "op": "calc", "phase": "start", "note": "K40", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:2675591074b1", "op": "calc", "phase": "done", "note": "K40", "artifacts": [{"path": "analysis/K40.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:82012888302f", "op": "calc", "phase": "start", "note": "K17", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:82012888302f", "op": "calc", "phase": "done", "note": "K17", "artifacts": [{"path": "analysis/K17.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:955003aeb122", "op": "calc", "phase": "start", "note": "K42", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:955003aeb122", "op": "calc", "phase": "done", "note": "K42", "artifacts": [{"path": "analysis/K42.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:ae913d137fc9", "op": "calc", "phase": "start", "note": "K18", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:ae913d137fc9", "op": "calc", "phase": "done", "note": "K18", "artifacts": [{"path": "analysis/K18.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:73a485d9149d", "op": "calc", "phase": "start", "note": "K20", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:73a485d9149d", "op": "calc", "phase": "done", "note": "K20", "artifacts": [{"path": "analysis/K20.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:769966ab5c4b", "op": "calc", "phase": "start", "note": "K21", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:769966ab5c4b", "op": "calc", "phase": "done", "note": "K21", "artifacts": [{"path": "analysis/K21.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:2cd75f7bcf02", "op": "calc", "phase": "start", "note": "K22", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:2cd75f7bcf02", "op": "calc", "phase": "done", "note": "K22", "artifacts": [{"path": "analysis/K22.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:ac27e01e91ff", "op": "calc", "phase": "start", "note": "K23", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:ac27e01e91ff", "op": "calc", "phase": "done", "note": "K23", "artifacts": [{"path": "analysis/K23.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:c5ee5ae66408", "op": "calc", "phase": "start", "note": "K24", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:c5ee5ae66408", "op": "calc", "phase": "done", "note": "K24", "artifacts": [{"path": "analysis/K24.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:85a1c6ffa4d0", "op": "calc", "phase": "start", "note": "K25", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:85a1c6ffa4d0", "op": "calc", "phase": "done", "note": "K25", "artifacts": [{"path": "analysis/K25.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "start", "note": "K27", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "done", "note": "K27", "artifacts": [{"path": "analysis/K27.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "start", "note": "K28", "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "done", "note": "K28", "artifacts": [{"path": "analysis/K28.out.json"}], "ts": "2026-11-22T15:52:19Z", "stage": "options"}
+{"op_id": "calc:0504c858385b", "op": "calc", "phase": "start", "note": "K46", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:0504c858385b", "op": "calc", "phase": "done", "note": "K46", "artifacts": [{"path": "analysis/K46.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:c3fa4136be0d", "op": "calc", "phase": "start", "note": "K47", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:c3fa4136be0d", "op": "calc", "phase": "done", "note": "K47", "artifacts": [{"path": "analysis/K47.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:7c2532a78a39", "op": "calc", "phase": "start", "note": "K29", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:7c2532a78a39", "op": "calc", "phase": "done", "note": "K29", "artifacts": [{"path": "analysis/K29.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:c92f81a09840", "op": "calc", "phase": "start", "note": "K48", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:c92f81a09840", "op": "calc", "phase": "done", "note": "K48", "artifacts": [{"path": "analysis/K48.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:bd6175682c13", "op": "calc", "phase": "start", "note": "K30", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:bd6175682c13", "op": "calc", "phase": "done", "note": "K30", "artifacts": [{"path": "analysis/K30.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:88d2b380ed47", "op": "calc", "phase": "start", "note": "K31", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:88d2b380ed47", "op": "calc", "phase": "done", "note": "K31", "artifacts": [{"path": "analysis/K31.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "start", "note": "K32", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "done", "note": "K32", "artifacts": [{"path": "analysis/K32.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "start", "note": "K33", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "done", "note": "K33", "artifacts": [{"path": "analysis/K33.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "start", "note": "K34", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "done", "note": "K34", "artifacts": [{"path": "analysis/K34.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "start", "note": "K35", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "done", "note": "K35", "artifacts": [{"path": "analysis/K35.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:1cccd353e2e1", "op": "calc", "phase": "start", "note": "K36", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:1cccd353e2e1", "op": "calc", "phase": "done", "note": "K36", "artifacts": [{"path": "analysis/K36.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "start", "note": "K37", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "done", "note": "K37", "artifacts": [{"path": "analysis/K37.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:1da62fdc573a", "op": "calc", "phase": "start", "note": "K38", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:1da62fdc573a", "op": "calc", "phase": "done", "note": "K38", "artifacts": [{"path": "analysis/K38.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:f15646dc7576", "op": "calc", "phase": "start", "note": "K43", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:f15646dc7576", "op": "calc", "phase": "done", "note": "K43", "artifacts": [{"path": "analysis/K43.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:1aedcb73e38a", "op": "calc", "phase": "start", "note": "K44", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:1aedcb73e38a", "op": "calc", "phase": "done", "note": "K44", "artifacts": [{"path": "analysis/K44.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:f02202ffc25f", "op": "calc", "phase": "start", "note": "K45", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:f02202ffc25f", "op": "calc", "phase": "done", "note": "K45", "artifacts": [{"path": "analysis/K45.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "start", "note": "K49", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "done", "note": "K49", "artifacts": [{"path": "analysis/K49.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "start", "note": "K50", "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "done", "note": "K50", "artifacts": [{"path": "analysis/K50.out.json"}], "ts": "2026-11-22T15:52:20Z", "stage": "options"}
+{"op_id": "claim:4135b83bce8c", "op": "claim", "phase": "done", "note": "I03", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "claim:947af0fd807f", "op": "claim", "phase": "done", "note": "I04", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "claim:12c33339a390", "op": "claim", "phase": "done", "note": "I06", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "claim:db915e1bc63f", "op": "claim", "phase": "done", "note": "I07", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "claim:688afeb02934", "op": "claim", "phase": "done", "note": "A26", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "skipped_cached", "note": "K01", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "skipped_cached", "note": "K02", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "skipped_cached", "note": "K03", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "skipped_cached", "note": "K04", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "skipped_cached", "note": "K05", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "skipped_cached", "note": "K06", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "skipped_cached", "note": "K07", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "skipped_cached", "note": "K08", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "skipped_cached", "note": "K09", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "skipped_cached", "note": "K10", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "skipped_cached", "note": "K11", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "skipped_cached", "note": "K12", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "skipped_cached", "note": "K13", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "skipped_cached", "note": "K14", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "skipped_cached", "note": "K15", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:3a57bd8b5421", "op": "calc", "phase": "skipped_cached", "note": "K16", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "skipped_cached", "note": "K26", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:2675591074b1", "op": "calc", "phase": "skipped_cached", "note": "K40", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:82012888302f", "op": "calc", "phase": "skipped_cached", "note": "K17", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:955003aeb122", "op": "calc", "phase": "skipped_cached", "note": "K42", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:ae913d137fc9", "op": "calc", "phase": "skipped_cached", "note": "K18", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:73a485d9149d", "op": "calc", "phase": "skipped_cached", "note": "K20", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:769966ab5c4b", "op": "calc", "phase": "skipped_cached", "note": "K21", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:2cd75f7bcf02", "op": "calc", "phase": "skipped_cached", "note": "K22", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:ac27e01e91ff", "op": "calc", "phase": "skipped_cached", "note": "K23", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:c5ee5ae66408", "op": "calc", "phase": "skipped_cached", "note": "K24", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:85a1c6ffa4d0", "op": "calc", "phase": "skipped_cached", "note": "K25", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "skipped_cached", "note": "K27", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "skipped_cached", "note": "K28", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:0504c858385b", "op": "calc", "phase": "skipped_cached", "note": "K46", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:c3fa4136be0d", "op": "calc", "phase": "skipped_cached", "note": "K47", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:7c2532a78a39", "op": "calc", "phase": "skipped_cached", "note": "K29", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:c92f81a09840", "op": "calc", "phase": "skipped_cached", "note": "K48", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:bd6175682c13", "op": "calc", "phase": "skipped_cached", "note": "K30", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:88d2b380ed47", "op": "calc", "phase": "skipped_cached", "note": "K31", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "skipped_cached", "note": "K32", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "skipped_cached", "note": "K33", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "skipped_cached", "note": "K34", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "skipped_cached", "note": "K35", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:1cccd353e2e1", "op": "calc", "phase": "skipped_cached", "note": "K36", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "skipped_cached", "note": "K37", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:1da62fdc573a", "op": "calc", "phase": "skipped_cached", "note": "K38", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:f15646dc7576", "op": "calc", "phase": "skipped_cached", "note": "K43", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:1aedcb73e38a", "op": "calc", "phase": "skipped_cached", "note": "K44", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:f02202ffc25f", "op": "calc", "phase": "skipped_cached", "note": "K45", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "skipped_cached", "note": "K49", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "skipped_cached", "note": "K50", "ts": "2026-11-22T15:52:47Z", "stage": "options"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "skipped_cached", "note": "K01", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "skipped_cached", "note": "K02", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "skipped_cached", "note": "K03", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "skipped_cached", "note": "K04", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "skipped_cached", "note": "K05", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "skipped_cached", "note": "K06", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "skipped_cached", "note": "K07", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "skipped_cached", "note": "K08", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "skipped_cached", "note": "K09", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "skipped_cached", "note": "K10", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "skipped_cached", "note": "K11", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "skipped_cached", "note": "K12", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "skipped_cached", "note": "K13", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "skipped_cached", "note": "K14", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "skipped_cached", "note": "K15", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:3a57bd8b5421", "op": "calc", "phase": "skipped_cached", "note": "K16", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "skipped_cached", "note": "K26", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:2675591074b1", "op": "calc", "phase": "skipped_cached", "note": "K40", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:82012888302f", "op": "calc", "phase": "skipped_cached", "note": "K17", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:955003aeb122", "op": "calc", "phase": "skipped_cached", "note": "K42", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:ae913d137fc9", "op": "calc", "phase": "skipped_cached", "note": "K18", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:73a485d9149d", "op": "calc", "phase": "skipped_cached", "note": "K20", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:769966ab5c4b", "op": "calc", "phase": "skipped_cached", "note": "K21", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:2cd75f7bcf02", "op": "calc", "phase": "skipped_cached", "note": "K22", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:ac27e01e91ff", "op": "calc", "phase": "skipped_cached", "note": "K23", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:c5ee5ae66408", "op": "calc", "phase": "skipped_cached", "note": "K24", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:85a1c6ffa4d0", "op": "calc", "phase": "skipped_cached", "note": "K25", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "skipped_cached", "note": "K27", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "skipped_cached", "note": "K28", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:0504c858385b", "op": "calc", "phase": "skipped_cached", "note": "K46", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:c3fa4136be0d", "op": "calc", "phase": "skipped_cached", "note": "K47", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:7c2532a78a39", "op": "calc", "phase": "skipped_cached", "note": "K29", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:c92f81a09840", "op": "calc", "phase": "skipped_cached", "note": "K48", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:bd6175682c13", "op": "calc", "phase": "skipped_cached", "note": "K30", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:88d2b380ed47", "op": "calc", "phase": "skipped_cached", "note": "K31", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "skipped_cached", "note": "K32", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "skipped_cached", "note": "K33", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "skipped_cached", "note": "K34", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "skipped_cached", "note": "K35", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:1cccd353e2e1", "op": "calc", "phase": "skipped_cached", "note": "K36", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "skipped_cached", "note": "K37", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:1da62fdc573a", "op": "calc", "phase": "skipped_cached", "note": "K38", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:f15646dc7576", "op": "calc", "phase": "skipped_cached", "note": "K43", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:1aedcb73e38a", "op": "calc", "phase": "skipped_cached", "note": "K44", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:f02202ffc25f", "op": "calc", "phase": "skipped_cached", "note": "K45", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "skipped_cached", "note": "K49", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "skipped_cached", "note": "K50", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:b1515dc63d7a", "op": "calc", "phase": "start", "note": "K51", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:b1515dc63d7a", "op": "calc", "phase": "done", "note": "K51", "artifacts": [{"path": "analysis/K51.out.json"}], "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:fe5b6da8d275", "op": "calc", "phase": "start", "note": "K52", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:fe5b6da8d275", "op": "calc", "phase": "done", "note": "K52", "artifacts": [{"path": "analysis/K52.out.json"}], "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:8932d5c54aeb", "op": "calc", "phase": "start", "note": "K53", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:8932d5c54aeb", "op": "calc", "phase": "done", "note": "K53", "artifacts": [{"path": "analysis/K53.out.json"}], "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:a6b53db856b6", "op": "calc", "phase": "start", "note": "K54", "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op_id": "calc:a6b53db856b6", "op": "calc", "phase": "done", "note": "K54", "artifacts": [{"path": "analysis/K54.out.json"}], "ts": "2026-11-22T15:52:54Z", "stage": "options"}
+{"op": "gate", "op_id": "gate:55e3ff4242d2", "phase": "gate", "stage": "options", "note": "ждём человека", "warnings": 0, "ts": "2026-11-22T15:55:29Z"}
+{"op_id": "source:8ae6c30e806a", "op": "source", "phase": "start", "inputs": {"file": null, "url": null, "note": "Руководитель (пользователь в чате): выбираю O02 — пилот сигнала, с диагностикой Q1", "day": null}, "ts": "2026-11-22T16:09:36Z", "stage": "options"}
+{"op_id": "source:8ae6c30e806a", "op": "source", "phase": "done", "inputs": {"file": null, "url": null, "note": "Руководитель (пользователь в чате): выбираю O02 — пилот сигнала, с диагностикой Q1", "day": null}, "artifacts": [{"path": "evidence/raw/S05.md", "sha256": "3512ddb84f14bce5d111762568ca06fbcbf0e4820bf0362c734b2163c3bf8737"}], "note": "S05", "ts": "2026-11-22T16:09:36Z", "stage": "options"}
+{"op": "human_gate", "op_id": "approve:dfbf76084604", "phase": "done", "stage": "options", "note": "Пользователь выбрал O02 — пилот сигнала (ответ в чате, источник S05)", "origin": "human", "ts": "2026-11-22T16:09:36Z"}
+{"op": "gate", "op_id": "gate:dfbf76084604", "phase": "done", "stage": "options", "warnings": 0, "ts": "2026-11-22T16:09:36Z"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "skipped_cached", "note": "K01", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "skipped_cached", "note": "K02", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "skipped_cached", "note": "K03", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "skipped_cached", "note": "K04", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "skipped_cached", "note": "K05", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "skipped_cached", "note": "K06", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "skipped_cached", "note": "K07", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "skipped_cached", "note": "K08", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "skipped_cached", "note": "K09", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "skipped_cached", "note": "K10", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "skipped_cached", "note": "K11", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "skipped_cached", "note": "K12", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "skipped_cached", "note": "K13", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "skipped_cached", "note": "K14", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "skipped_cached", "note": "K15", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:3a57bd8b5421", "op": "calc", "phase": "skipped_cached", "note": "K16", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "skipped_cached", "note": "K26", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:2675591074b1", "op": "calc", "phase": "skipped_cached", "note": "K40", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:82012888302f", "op": "calc", "phase": "skipped_cached", "note": "K17", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:955003aeb122", "op": "calc", "phase": "skipped_cached", "note": "K42", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:ae913d137fc9", "op": "calc", "phase": "skipped_cached", "note": "K18", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:73a485d9149d", "op": "calc", "phase": "skipped_cached", "note": "K20", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:769966ab5c4b", "op": "calc", "phase": "skipped_cached", "note": "K21", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:2cd75f7bcf02", "op": "calc", "phase": "skipped_cached", "note": "K22", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:ac27e01e91ff", "op": "calc", "phase": "skipped_cached", "note": "K23", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:c5ee5ae66408", "op": "calc", "phase": "skipped_cached", "note": "K24", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:85a1c6ffa4d0", "op": "calc", "phase": "skipped_cached", "note": "K25", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "skipped_cached", "note": "K27", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "skipped_cached", "note": "K28", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:0504c858385b", "op": "calc", "phase": "skipped_cached", "note": "K46", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:c3fa4136be0d", "op": "calc", "phase": "skipped_cached", "note": "K47", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:7c2532a78a39", "op": "calc", "phase": "skipped_cached", "note": "K29", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:c92f81a09840", "op": "calc", "phase": "skipped_cached", "note": "K48", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:bd6175682c13", "op": "calc", "phase": "skipped_cached", "note": "K30", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:88d2b380ed47", "op": "calc", "phase": "skipped_cached", "note": "K31", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "skipped_cached", "note": "K32", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "skipped_cached", "note": "K33", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "skipped_cached", "note": "K34", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "skipped_cached", "note": "K35", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:1cccd353e2e1", "op": "calc", "phase": "skipped_cached", "note": "K36", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "skipped_cached", "note": "K37", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:1da62fdc573a", "op": "calc", "phase": "skipped_cached", "note": "K38", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:f15646dc7576", "op": "calc", "phase": "skipped_cached", "note": "K43", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:1aedcb73e38a", "op": "calc", "phase": "skipped_cached", "note": "K44", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:f02202ffc25f", "op": "calc", "phase": "skipped_cached", "note": "K45", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "skipped_cached", "note": "K49", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "skipped_cached", "note": "K50", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:b1515dc63d7a", "op": "calc", "phase": "skipped_cached", "note": "K51", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:fe5b6da8d275", "op": "calc", "phase": "skipped_cached", "note": "K52", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:8932d5c54aeb", "op": "calc", "phase": "skipped_cached", "note": "K53", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:a6b53db856b6", "op": "calc", "phase": "skipped_cached", "note": "K54", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:2e62e56a5dc2", "op": "calc", "phase": "start", "note": "K55", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:2e62e56a5dc2", "op": "calc", "phase": "done", "note": "K55", "artifacts": [{"path": "analysis/K55.out.json"}], "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:64135160c032", "op": "calc", "phase": "start", "note": "K56", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:64135160c032", "op": "calc", "phase": "done", "note": "K56", "artifacts": [{"path": "analysis/K56.out.json"}], "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:6897040b2eb9", "op": "calc", "phase": "start", "note": "K57", "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op_id": "calc:6897040b2eb9", "op": "calc", "phase": "done", "note": "K57", "artifacts": [{"path": "analysis/K57.out.json"}], "ts": "2026-11-22T16:10:00Z", "stage": "strategy"}
+{"op": "gate", "op_id": "gate:5f7ddc0b94cc", "phase": "done", "stage": "strategy", "warnings": 0, "ts": "2026-11-22T16:11:11Z"}
+{"op_id": "claim:9a8bca991411", "op": "claim", "phase": "done", "note": "A27", "ts": "2026-11-22T16:11:44Z", "stage": "validation"}
+{"op_id": "claim:d1297b3479d1", "op": "claim", "phase": "done", "note": "A28", "ts": "2026-11-22T16:11:44Z", "stage": "validation"}
+{"op": "gate", "op_id": "gate:7476e2be9ea8", "phase": "done", "stage": "validation", "warnings": 0, "ts": "2026-11-22T16:11:45Z"}
+{"op_id": "claim:852f9283e7ab", "op": "claim", "phase": "done", "note": "A12", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "claim:0ffe6ce49840", "op": "claim", "phase": "done", "note": "A18", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "claim:65ff4c9169f3", "op": "claim", "phase": "done", "note": "A22", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "claim:fa9d06f91c4c", "op": "claim", "phase": "done", "note": "A29", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "claim:50939f473523", "op": "claim", "phase": "done", "note": "A30", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "claim:0e09eda48b51", "op": "claim", "phase": "done", "note": "A31", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "claim:09e3d95751a4", "op": "claim", "phase": "done", "note": "A32", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:84158d5c8a90", "op": "calc", "phase": "start", "note": "K20", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:84158d5c8a90", "op": "calc", "phase": "done", "note": "K20", "artifacts": [{"path": "analysis/K20.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:8024b6671bee", "op": "calc", "phase": "start", "note": "K21", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:8024b6671bee", "op": "calc", "phase": "done", "note": "K21", "artifacts": [{"path": "analysis/K21.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:4cea67d3a955", "op": "calc", "phase": "start", "note": "K22", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:4cea67d3a955", "op": "calc", "phase": "done", "note": "K22", "artifacts": [{"path": "analysis/K22.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:4eee3f103dcf", "op": "calc", "phase": "start", "note": "K23", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:4eee3f103dcf", "op": "calc", "phase": "done", "note": "K23", "artifacts": [{"path": "analysis/K23.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:297e5a55fcd2", "op": "calc", "phase": "start", "note": "K24", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:297e5a55fcd2", "op": "calc", "phase": "done", "note": "K24", "artifacts": [{"path": "analysis/K24.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:b4c3c028fcf5", "op": "calc", "phase": "start", "note": "K25", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:b4c3c028fcf5", "op": "calc", "phase": "done", "note": "K25", "artifacts": [{"path": "analysis/K25.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:f1c739fd8059", "op": "calc", "phase": "start", "note": "K30", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:f1c739fd8059", "op": "calc", "phase": "done", "note": "K30", "artifacts": [{"path": "analysis/K30.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:1c16c2ab7f99", "op": "calc", "phase": "start", "note": "K31", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:1c16c2ab7f99", "op": "calc", "phase": "done", "note": "K31", "artifacts": [{"path": "analysis/K31.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "start", "note": "K34", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "done", "note": "K34", "artifacts": [{"path": "analysis/K34.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:95938a10df5f", "op": "calc", "phase": "start", "note": "K52", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:95938a10df5f", "op": "calc", "phase": "done", "note": "K52", "artifacts": [{"path": "analysis/K52.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:ff8eec3af4d6", "op": "calc", "phase": "start", "note": "K53", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:ff8eec3af4d6", "op": "calc", "phase": "done", "note": "K53", "artifacts": [{"path": "analysis/K53.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op": "impact", "op_id": "impact:50ad1395f6ff", "phase": "done", "note": "IMPACT-2026-11-22-2.md", "artifacts": [{"path": "deliverables/IMPACT-2026-11-22-2.md", "sha256": "00ca13823d5216fa36c092d1dd8c5ae22b077264101c82e502c9d65eabdcaa35"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "skipped_cached", "note": "K01", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "skipped_cached", "note": "K02", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "skipped_cached", "note": "K03", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "skipped_cached", "note": "K04", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "skipped_cached", "note": "K05", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "skipped_cached", "note": "K06", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "skipped_cached", "note": "K07", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "skipped_cached", "note": "K08", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "skipped_cached", "note": "K09", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "skipped_cached", "note": "K10", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "skipped_cached", "note": "K11", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "skipped_cached", "note": "K12", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "skipped_cached", "note": "K13", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "skipped_cached", "note": "K14", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "skipped_cached", "note": "K15", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:3a57bd8b5421", "op": "calc", "phase": "skipped_cached", "note": "K16", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "skipped_cached", "note": "K26", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:2675591074b1", "op": "calc", "phase": "skipped_cached", "note": "K40", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:82012888302f", "op": "calc", "phase": "skipped_cached", "note": "K17", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:955003aeb122", "op": "calc", "phase": "skipped_cached", "note": "K42", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:ae913d137fc9", "op": "calc", "phase": "skipped_cached", "note": "K18", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:f15646dc7576", "op": "calc", "phase": "skipped_cached", "note": "K43", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:84158d5c8a90", "op": "calc", "phase": "skipped_cached", "note": "K20", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:8024b6671bee", "op": "calc", "phase": "skipped_cached", "note": "K21", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:4cea67d3a955", "op": "calc", "phase": "skipped_cached", "note": "K22", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:4eee3f103dcf", "op": "calc", "phase": "skipped_cached", "note": "K23", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:297e5a55fcd2", "op": "calc", "phase": "skipped_cached", "note": "K24", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:b4c3c028fcf5", "op": "calc", "phase": "skipped_cached", "note": "K25", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "skipped_cached", "note": "K27", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "skipped_cached", "note": "K28", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:3c5d7d32d8d6", "op": "calc", "phase": "start", "note": "K47", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:3c5d7d32d8d6", "op": "calc", "phase": "done", "note": "K47", "artifacts": [{"path": "analysis/K47.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:54340c573728", "op": "calc", "phase": "start", "note": "K29", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:54340c573728", "op": "calc", "phase": "done", "note": "K29", "artifacts": [{"path": "analysis/K29.out.json"}], "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:c92f81a09840", "op": "calc", "phase": "skipped_cached", "note": "K48", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:f1c739fd8059", "op": "calc", "phase": "skipped_cached", "note": "K30", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:1c16c2ab7f99", "op": "calc", "phase": "skipped_cached", "note": "K31", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "skipped_cached", "note": "K32", "ts": "2026-11-22T16:24:04Z", "stage": "review"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "skipped_cached", "note": "K33", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "skipped_cached", "note": "K34", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "skipped_cached", "note": "K35", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:4e805e4febfe", "op": "calc", "phase": "start", "note": "K36", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:4e805e4febfe", "op": "calc", "phase": "done", "note": "K36", "artifacts": [{"path": "analysis/K36.out.json"}], "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "skipped_cached", "note": "K37", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:1da62fdc573a", "op": "calc", "phase": "skipped_cached", "note": "K38", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:1aedcb73e38a", "op": "calc", "phase": "skipped_cached", "note": "K44", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:f02202ffc25f", "op": "calc", "phase": "skipped_cached", "note": "K45", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:0504c858385b", "op": "calc", "phase": "skipped_cached", "note": "K46", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "skipped_cached", "note": "K49", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "skipped_cached", "note": "K50", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:b1515dc63d7a", "op": "calc", "phase": "skipped_cached", "note": "K51", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:95938a10df5f", "op": "calc", "phase": "skipped_cached", "note": "K52", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:ff8eec3af4d6", "op": "calc", "phase": "skipped_cached", "note": "K53", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:a6b53db856b6", "op": "calc", "phase": "skipped_cached", "note": "K54", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:2e62e56a5dc2", "op": "calc", "phase": "skipped_cached", "note": "K55", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:64135160c032", "op": "calc", "phase": "skipped_cached", "note": "K56", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:6897040b2eb9", "op": "calc", "phase": "skipped_cached", "note": "K57", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:036abb3e5be6", "op": "calc", "phase": "start", "note": "K58", "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:036abb3e5be6", "op": "calc", "phase": "done", "note": "K58", "artifacts": [{"path": "analysis/K58.out.json"}], "ts": "2026-11-22T16:24:05Z", "stage": "review"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "start", "note": "K49", "ts": "2026-11-22T16:24:13Z", "stage": "review"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "done", "note": "K49", "artifacts": [{"path": "analysis/K49.out.json"}], "ts": "2026-11-22T16:24:13Z", "stage": "review"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "start", "note": "K50", "ts": "2026-11-22T16:24:13Z", "stage": "review"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "done", "note": "K50", "artifacts": [{"path": "analysis/K50.out.json"}], "ts": "2026-11-22T16:24:13Z", "stage": "review"}
+{"op_id": "calc:1386f456234e", "op": "calc", "phase": "start", "note": "K59", "ts": "2026-11-22T16:24:13Z", "stage": "review"}
+{"op_id": "calc:1386f456234e", "op": "calc", "phase": "done", "note": "K59", "artifacts": [{"path": "analysis/K59.out.json"}], "ts": "2026-11-22T16:24:13Z", "stage": "review"}
+{"op_id": "claim:8b769a618e8e", "op": "claim", "phase": "done", "note": "I03", "ts": "2026-11-22T16:25:07Z", "stage": "review"}
+{"op_id": "claim:b918695bc138", "op": "claim", "phase": "done", "note": "I06", "ts": "2026-11-22T16:25:07Z", "stage": "review"}
+{"op_id": "claim:2edfd31ab731", "op": "claim", "phase": "done", "note": "I04", "ts": "2026-11-22T16:25:07Z", "stage": "review"}
+{"op_id": "claim:fea955e36c53", "op": "claim", "phase": "done", "note": "A33", "ts": "2026-11-22T16:25:43Z", "stage": "review"}
+{"op": "gate", "op_id": "gate:a41fceec6d55", "phase": "gate", "stage": "review", "note": "ждём человека", "warnings": 1, "ts": "2026-11-22T16:26:04Z"}
+{"op_id": "source:ba98b177d5c5", "op": "source", "phase": "start", "inputs": {"file": null, "url": null, "note": "Руководитель (пользователь в чате): принимаю рекомендацию — диагностика и пилот сигнала 50/50; разрыв прибыли — отдельное решение с финансами", "day": null}, "ts": "2026-11-22T16:38:48Z", "stage": "review"}
+{"op_id": "source:ba98b177d5c5", "op": "source", "phase": "done", "inputs": {"file": null, "url": null, "note": "Руководитель (пользователь в чате): принимаю рекомендацию — диагностика и пилот сигнала 50/50; разрыв прибыли — отдельное решение с финансами", "day": null}, "artifacts": [{"path": "evidence/raw/S06.md", "sha256": "917c38bbfe6e85377a157d794ddb6d351d25a1a69df4639a012ccb12203aed04"}], "note": "S06", "ts": "2026-11-22T16:38:48Z", "stage": "review"}
+{"op": "human_gate", "op_id": "approve:3a9838a857be", "phase": "done", "stage": "review", "note": "Пользователь принял рекомендацию (S06)", "origin": "human", "ts": "2026-11-22T16:38:48Z"}
+{"op": "gate", "op_id": "gate:3a9838a857be", "phase": "done", "stage": "review", "warnings": 1, "ts": "2026-11-22T16:38:48Z"}
+{"op": "decide_new", "op_id": "decide:099330b463eb", "phase": "done", "note": "D01", "ts": "2026-11-22T16:38:48Z", "stage": "after"}
+{"op": "decide_accept", "op_id": "accept:cef746ddbe81", "phase": "done", "note": "D01", "origin": "human", "ts": "2026-11-22T16:38:48Z", "stage": "after"}
+{"op": "decide_new", "op_id": "decide:64c7f720cb21", "phase": "done", "note": "D02", "ts": "2026-11-22T16:38:49Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:fc160cf96859", "phase": "done", "ts": "2026-11-22T16:39:27Z", "stage": "after"}
+{"op_id": "claim:3a700fe0feab", "op": "claim", "phase": "done", "note": "A34", "ts": "2026-11-22T16:48:36Z", "stage": "after"}
+{"op_id": "claim:6c0affd135ab", "op": "claim", "phase": "done", "note": "A35", "ts": "2026-11-22T16:48:36Z", "stage": "after"}
+{"op_id": "claim:1abb10ed6bba", "op": "claim", "phase": "done", "note": "A36", "ts": "2026-11-22T16:48:36Z", "stage": "after"}
+{"op_id": "claim:233b7ba52f9b", "op": "claim", "phase": "done", "note": "A37", "ts": "2026-11-22T16:48:36Z", "stage": "after"}
+{"op_id": "claim:007e35d05690", "op": "claim", "phase": "done", "note": "A38", "ts": "2026-11-22T16:48:36Z", "stage": "after"}
+{"op_id": "calc:e19914f24f5d", "op": "calc", "phase": "skipped_cached", "note": "K01", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:4192ca5c7e40", "op": "calc", "phase": "skipped_cached", "note": "K02", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:ef39b806de2b", "op": "calc", "phase": "skipped_cached", "note": "K03", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:78103a1ae774", "op": "calc", "phase": "skipped_cached", "note": "K04", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:9a9de128df97", "op": "calc", "phase": "skipped_cached", "note": "K05", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:b4e4ba9bbd93", "op": "calc", "phase": "skipped_cached", "note": "K06", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:cffd26a02d2e", "op": "calc", "phase": "skipped_cached", "note": "K07", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:5d2820e3d2f7", "op": "calc", "phase": "skipped_cached", "note": "K08", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:d884d19d6495", "op": "calc", "phase": "skipped_cached", "note": "K09", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:a00500bc04e6", "op": "calc", "phase": "skipped_cached", "note": "K10", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:c1773128b2a6", "op": "calc", "phase": "skipped_cached", "note": "K11", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:31e968e2b88a", "op": "calc", "phase": "skipped_cached", "note": "K12", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:9677f05d5997", "op": "calc", "phase": "skipped_cached", "note": "K13", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:36f6ff2c00b9", "op": "calc", "phase": "skipped_cached", "note": "K14", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:1c779818371e", "op": "calc", "phase": "skipped_cached", "note": "K15", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:3a57bd8b5421", "op": "calc", "phase": "skipped_cached", "note": "K16", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:c4e7b3d2b250", "op": "calc", "phase": "skipped_cached", "note": "K26", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:2675591074b1", "op": "calc", "phase": "skipped_cached", "note": "K40", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:82012888302f", "op": "calc", "phase": "skipped_cached", "note": "K17", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:955003aeb122", "op": "calc", "phase": "skipped_cached", "note": "K42", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:ae913d137fc9", "op": "calc", "phase": "skipped_cached", "note": "K18", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:f15646dc7576", "op": "calc", "phase": "skipped_cached", "note": "K43", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:84158d5c8a90", "op": "calc", "phase": "skipped_cached", "note": "K20", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:8024b6671bee", "op": "calc", "phase": "skipped_cached", "note": "K21", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:4cea67d3a955", "op": "calc", "phase": "skipped_cached", "note": "K22", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:ab1b4257b9bc", "op": "calc", "phase": "start", "note": "K23", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:ab1b4257b9bc", "op": "calc", "phase": "done", "note": "K23", "artifacts": [{"path": "analysis/K23.out.json"}], "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:686d9b03a195", "op": "calc", "phase": "start", "note": "K24", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:686d9b03a195", "op": "calc", "phase": "done", "note": "K24", "artifacts": [{"path": "analysis/K24.out.json"}], "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:b4c3c028fcf5", "op": "calc", "phase": "skipped_cached", "note": "K25", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:1b742389d0ac", "op": "calc", "phase": "skipped_cached", "note": "K27", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:040069d45f28", "op": "calc", "phase": "skipped_cached", "note": "K28", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:3c5d7d32d8d6", "op": "calc", "phase": "skipped_cached", "note": "K47", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:54340c573728", "op": "calc", "phase": "skipped_cached", "note": "K29", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:c92f81a09840", "op": "calc", "phase": "skipped_cached", "note": "K48", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:f1c739fd8059", "op": "calc", "phase": "skipped_cached", "note": "K30", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:1c16c2ab7f99", "op": "calc", "phase": "skipped_cached", "note": "K31", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:ee7e64235e87", "op": "calc", "phase": "skipped_cached", "note": "K32", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:684e779432f0", "op": "calc", "phase": "skipped_cached", "note": "K33", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:58822a3b577f", "op": "calc", "phase": "skipped_cached", "note": "K34", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:23fec447d80a", "op": "calc", "phase": "skipped_cached", "note": "K35", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:4e805e4febfe", "op": "calc", "phase": "skipped_cached", "note": "K36", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:581718067a06", "op": "calc", "phase": "skipped_cached", "note": "K37", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:1da62fdc573a", "op": "calc", "phase": "skipped_cached", "note": "K38", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:1aedcb73e38a", "op": "calc", "phase": "skipped_cached", "note": "K44", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:f02202ffc25f", "op": "calc", "phase": "skipped_cached", "note": "K45", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:0504c858385b", "op": "calc", "phase": "skipped_cached", "note": "K46", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:a3b36f3ca915", "op": "calc", "phase": "skipped_cached", "note": "K49", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:4b8bd531792f", "op": "calc", "phase": "skipped_cached", "note": "K50", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:b1515dc63d7a", "op": "calc", "phase": "skipped_cached", "note": "K51", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:95938a10df5f", "op": "calc", "phase": "skipped_cached", "note": "K52", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:ff8eec3af4d6", "op": "calc", "phase": "skipped_cached", "note": "K53", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:a6b53db856b6", "op": "calc", "phase": "skipped_cached", "note": "K54", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:2e62e56a5dc2", "op": "calc", "phase": "skipped_cached", "note": "K55", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:64135160c032", "op": "calc", "phase": "skipped_cached", "note": "K56", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:6897040b2eb9", "op": "calc", "phase": "skipped_cached", "note": "K57", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:036abb3e5be6", "op": "calc", "phase": "skipped_cached", "note": "K58", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:1386f456234e", "op": "calc", "phase": "skipped_cached", "note": "K59", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:837144e05c7d", "op": "calc", "phase": "start", "note": "K60", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:837144e05c7d", "op": "calc", "phase": "done", "note": "K60", "artifacts": [{"path": "analysis/K60.out.json"}], "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:04f4a6bcaef5", "op": "calc", "phase": "start", "note": "K61", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:04f4a6bcaef5", "op": "calc", "phase": "done", "note": "K61", "artifacts": [{"path": "analysis/K61.out.json"}], "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:d79fe568f8f2", "op": "calc", "phase": "start", "note": "K62", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:d79fe568f8f2", "op": "calc", "phase": "done", "note": "K62", "artifacts": [{"path": "analysis/K62.out.json"}], "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:c134c503c888", "op": "calc", "phase": "start", "note": "K63", "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "calc:c134c503c888", "op": "calc", "phase": "done", "note": "K63", "artifacts": [{"path": "analysis/K63.out.json"}], "ts": "2026-11-22T16:48:44Z", "stage": "after"}
+{"op_id": "claim:17275af7a346", "op": "claim", "phase": "done", "note": "I03", "ts": "2026-11-22T16:49:08Z", "stage": "after"}
+{"op_id": "claim:344dcd08cc03", "op": "claim", "phase": "done", "note": "A33", "ts": "2026-11-22T16:49:26Z", "stage": "after"}
+{"op_id": "claim:768b29f2190a", "op": "claim", "phase": "done", "note": "I07", "ts": "2026-11-22T16:49:58Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:309b603eeff9", "phase": "done", "ts": "2026-11-22T18:34:06Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:73425c09e04d", "phase": "done", "ts": "2026-11-22T19:32:15Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:4a4b49dfe3e2", "phase": "done", "ts": "2026-11-22T19:33:57Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:8b41293db84d", "phase": "done", "ts": "2026-11-22T19:46:38Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:e4eab5021126", "phase": "done", "ts": "2026-11-22T19:49:14Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:f7396f7a7b80", "phase": "done", "ts": "2026-11-22T19:51:10Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:e20e139fb174", "phase": "done", "ts": "2026-11-22T19:53:44Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:2eaf136da3df", "phase": "done", "ts": "2026-11-22T19:53:50Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:b5ee72854a6e", "phase": "done", "ts": "2026-11-22T19:54:40Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:37f480f496d3", "phase": "done", "ts": "2026-11-22T19:56:06Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:538b8c3b94cc", "phase": "done", "ts": "2026-11-22T20:18:42Z", "stage": "after"}
+{"op": "resume", "op_id": "resume:8599ac7c9a6e", "phase": "done", "ts": "2026-11-22T20:19:17Z", "stage": "after"}

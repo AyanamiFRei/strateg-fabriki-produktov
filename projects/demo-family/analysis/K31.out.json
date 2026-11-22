@@ -1,0 +1,50 @@
+{
+  "id": "K31",
+  "title": "Активация за 14 дней (основной)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "a * f",
+    "names": {
+      "a": 0.7,
+      "f": 0.649
+    }
+  },
+  "inputs": {
+    "names.a": {
+      "ref": "A17",
+      "value": 0.7
+    },
+    "names.f": {
+      "ref": "A18",
+      "value": 0.649
+    }
+  },
+  "result": {
+    "value": 0.4543,
+    "unit": "",
+    "formula": "a * f",
+    "details": {
+      "inputs": {
+        "a": 0.7,
+        "f": 0.649
+      }
+    }
+  },
+  "inputs_hash": "24e80dafb691ad484e46c32f88e6351c120d56dbaef979233416237a0a845a8a",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 0.462,
+    "computed_at": "2026-11-22T15:52:20Z",
+    "inputs": {
+      "names.a": {
+        "ref": "A17",
+        "value": 0.7
+      },
+      "names.f": {
+        "ref": "A18",
+        "value": 0.66
+      }
+    }
+  }
+}

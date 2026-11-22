@@ -1,0 +1,86 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python st.py:*)",
+      "Bash(python3 st.py:*)",
+      "Bash(py st.py:*)",
+      "Bash(python -m unittest:*)",
+      "Bash(python3 -m unittest:*)"
+    ],
+    "ask": [
+      "Bash(python st.py allow:*)",
+      "Bash(python st.py stage approve:*)",
+      "Bash(python st.py decide accept:*)",
+      "Bash(python st.py decide confirm:*)",
+      "Bash(python st.py claim verify:*)",
+      "Bash(python st.py source reviewed:*)",
+      "Bash(python3 st.py allow:*)",
+      "Bash(python3 st.py stage approve:*)",
+      "Bash(python3 st.py decide accept:*)",
+      "Bash(python3 st.py decide confirm:*)",
+      "Bash(python3 st.py claim verify:*)",
+      "Bash(python3 st.py source reviewed:*)",
+      "Bash(py st.py allow:*)",
+      "Bash(py st.py stage approve:*)",
+      "Bash(py st.py decide accept:*)",
+      "Bash(py st.py decide confirm:*)",
+      "Bash(py st.py claim verify:*)",
+      "Bash(py st.py source reviewed:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Edit(./AGENTS.md)",
+      "Edit(./agent/**)",
+      "Edit(./kb/**)",
+      "Edit(./config/**)",
+      "Edit(./tools/**)",
+      "Edit(./.agents/**)",
+      "Write(./AGENTS.md)",
+      "Write(./agent/**)",
+      "Write(./kb/**)",
+      "Write(./config/**)",
+      "Write(./tools/**)",
+      "Write(./.agents/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/st.py\" hook session-start",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|Bash|WebFetch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/st.py\" hook pre-tool",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/st.py\" hook stop",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

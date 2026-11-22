@@ -1,0 +1,16 @@
+{
+ "title": "Какую долю разрыва прибыли покрывает даже верхняя граница",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "up / gap",
+  "names": {
+   "up": 0,
+   "gap": 0
+  }
+ },
+ "inputs": {
+  "names.up": "K23",
+  "names.gap": "K05"
+ },
+ "id": "K24"
+}

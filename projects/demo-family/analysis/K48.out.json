@@ -1,0 +1,36 @@
+{
+  "id": "K48",
+  "title": "Создано групп за год (новые подключённые / доля принявших)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "conn / a",
+    "names": {
+      "conn": 2475,
+      "a": 0.7
+    }
+  },
+  "inputs": {
+    "names.conn": {
+      "ref": "K26",
+      "value": 2475
+    },
+    "names.a": {
+      "ref": "A17",
+      "value": 0.7
+    }
+  },
+  "result": {
+    "value": 3535.714286,
+    "unit": "",
+    "formula": "conn / a",
+    "details": {
+      "inputs": {
+        "conn": 2475,
+        "a": 0.7
+      }
+    }
+  },
+  "inputs_hash": "ca8d2ead505934c84b32608e1164a2833eff69b37dc693351eb002d0e90c6e16",
+  "computed_at": "2026-11-22T15:52:20Z",
+  "kind": "forecast"
+}

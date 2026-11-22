@@ -1,0 +1,12 @@
+{"ts": "2026-11-22T15:38:30Z", "stage": "framing", "cat": "model", "tier": "strong", "in_tok": 23077, "out_tok": 3462, "basis": "estimate", "usd": 0.2019, "note": "чтение брифа, brief/glossary/traps"}
+{"ts": "2026-11-22T15:38:30Z", "stage": "collect", "cat": "model", "tier": "strong", "in_tok": 17308, "out_tok": 5385, "basis": "estimate", "usd": 0.2212, "note": "извлечение 42 фактов"}
+{"ts": "2026-11-22T15:40:36Z", "stage": "diagnosis", "cat": "model", "tier": "strong", "in_tok": 26924, "out_tok": 4616, "basis": "estimate", "usd": 0.25, "note": "расчёты, выводы, situation.md"}
+{"ts": "2026-11-22T15:55:29Z", "stage": "options", "cat": "model", "tier": "strong", "in_tok": 61539, "out_tok": 11539, "basis": "estimate", "usd": 0.5962, "note": "варианты, переработка после критики"}
+{"ts": "2026-11-22T15:55:29Z", "stage": "options", "cat": "model", "tier": "strong", "in_tok": 73077, "out_tok": 6924, "basis": "estimate", "usd": 0.5385, "note": "субагент critic (вызов 1)"}
+{"ts": "2026-11-22T15:55:29Z", "stage": "options", "cat": "model", "tier": "mid", "in_tok": 23077, "out_tok": 9616, "basis": "estimate", "usd": 0.2135, "note": "субагент respondent: модельная панель"}
+{"ts": "2026-11-22T16:09:36Z", "stage": "strategy", "cat": "human", "human_min": 1.0, "note": "выбор направления на воротах «Варианты»", "basis": "reported", "usd": 0}
+{"ts": "2026-11-22T16:11:11Z", "stage": "strategy", "cat": "model", "tier": "strong", "in_tok": 46154, "out_tok": 10000, "basis": "estimate", "usd": 0.4808, "note": "продуктовая и коммуникационная стратегии"}
+{"ts": "2026-11-22T16:11:45Z", "stage": "validation", "cat": "model", "tier": "strong", "in_tok": 23077, "out_tok": 3462, "basis": "estimate", "usd": 0.2019, "note": "план проверки"}
+{"ts": "2026-11-22T16:26:04Z", "stage": "review", "cat": "model", "tier": "strong", "in_tok": 84616, "out_tok": 5770, "basis": "estimate", "usd": 0.5673, "note": "субагент critic (вызов 2)"}
+{"ts": "2026-11-22T16:26:04Z", "stage": "review", "cat": "model", "tier": "strong", "in_tok": 69231, "out_tok": 15385, "basis": "estimate", "usd": 0.7308, "note": "исправления по критике, сборка"}
+{"ts": "2026-11-22T16:38:48Z", "stage": "after", "cat": "human", "human_min": 1.0, "note": "принятие итогового документа", "basis": "reported", "usd": 0}

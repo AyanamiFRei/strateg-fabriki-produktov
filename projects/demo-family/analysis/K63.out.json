@@ -1,0 +1,36 @@
+{
+  "id": "K63",
+  "title": "Создано групп через поддержку",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "c * s",
+    "names": {
+      "c": 3535.714286,
+      "s": 0.1
+    }
+  },
+  "inputs": {
+    "names.c": {
+      "ref": "K48",
+      "value": 3535.714286
+    },
+    "names.s": {
+      "ref": "A38",
+      "value": 0.1
+    }
+  },
+  "result": {
+    "value": 353.571429,
+    "unit": "",
+    "formula": "c * s",
+    "details": {
+      "inputs": {
+        "c": 3535.714286,
+        "s": 0.1
+      }
+    }
+  },
+  "inputs_hash": "a88268ce1085334999d7549474e42fe761da60dd150694deaa008ee22031ea09",
+  "computed_at": "2026-11-22T16:48:44Z",
+  "kind": "forecast"
+}

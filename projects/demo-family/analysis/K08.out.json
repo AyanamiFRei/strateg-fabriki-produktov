@@ -1,0 +1,50 @@
+{
+  "id": "K08",
+  "title": "Отставание базового года по прибыли, млн руб.",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "plan - est",
+    "names": {
+      "plan": 282,
+      "est": 275
+    }
+  },
+  "inputs": {
+    "names.plan": {
+      "ref": "F05",
+      "value": 282
+    },
+    "names.est": {
+      "ref": "F06",
+      "value": 275
+    }
+  },
+  "result": {
+    "value": 7,
+    "unit": "",
+    "formula": "plan - est",
+    "details": {
+      "inputs": {
+        "plan": 282,
+        "est": 275
+      }
+    }
+  },
+  "inputs_hash": "48e202f00f90e624fae36be886778cd1bda426e2bc45e6f0c752b4eb61e88ca5",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "fact",
+  "previous": {
+    "value": 7,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.plan": {
+        "ref": "F05",
+        "value": 282
+      },
+      "names.est": {
+        "ref": "F06",
+        "value": 275
+      }
+    }
+  }
+}

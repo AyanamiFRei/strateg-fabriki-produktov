@@ -1,0 +1,50 @@
+{
+  "id": "K27",
+  "title": "Выбытие групп с сигналом",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "churn - saved",
+    "names": {
+      "churn": 975,
+      "saved": 0
+    }
+  },
+  "inputs": {
+    "names.churn": {
+      "ref": "A16",
+      "value": 975
+    },
+    "names.saved": {
+      "ref": "A15",
+      "value": 0
+    }
+  },
+  "result": {
+    "value": 975,
+    "unit": "",
+    "formula": "churn - saved",
+    "details": {
+      "inputs": {
+        "churn": 975,
+        "saved": 0
+      }
+    }
+  },
+  "inputs_hash": "d127a1d8bab0f66c5dd3dee8dd31fbced7aa6649639d7833dd11736ff2bfaf0e",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 975,
+    "computed_at": "2026-11-22T15:51:56Z",
+    "inputs": {
+      "names.churn": {
+        "ref": "A16",
+        "value": 975
+      },
+      "names.saved": {
+        "ref": "A15",
+        "value": 0
+      }
+    }
+  }
+}

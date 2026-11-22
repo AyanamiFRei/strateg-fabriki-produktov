@@ -1,0 +1,16 @@
+{
+ "title": "Изменение прибыли планового года от O02 (вклад − прямые расходы), руб.",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "gain - cost",
+  "names": {
+   "gain": 0,
+   "cost": 0
+  }
+ },
+ "inputs": {
+  "names.gain": "K22",
+  "names.cost": "A13"
+ },
+ "id": "K25"
+}

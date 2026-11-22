@@ -1,0 +1,47 @@
+{
+  "id": "K18",
+  "title": "Минимальный обнаружимый эффект к концу Q2",
+  "fn": "mde_for_n",
+  "args": {
+    "p1": 0.12,
+    "n_per_arm": 442.142857
+  },
+  "inputs": {
+    "p1": {
+      "ref": "A05",
+      "value": 0.12
+    },
+    "n_per_arm": {
+      "ref": "K42",
+      "value": 442.142857
+    }
+  },
+  "result": {
+    "value": 5.458,
+    "unit": "п.п.",
+    "formula": "наименьшее |p1-p2|, при котором n_two_proportions(p1,p2) <= n",
+    "details": {
+      "p1": 0.12,
+      "p2": 0.06542,
+      "n_per_arm": 442.142857,
+      "rel": 0.4549
+    }
+  },
+  "inputs_hash": "4001a2fc8ca2a8720b0e96852073f03ebe4c230346493c058cb5d6f6bb6db799",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 6.325,
+    "computed_at": "2026-11-22T15:51:55Z",
+    "inputs": {
+      "p1": {
+        "ref": "A05",
+        "value": 0.12
+      },
+      "n_per_arm": {
+        "ref": "K17",
+        "value": 315.0
+      }
+    }
+  }
+}

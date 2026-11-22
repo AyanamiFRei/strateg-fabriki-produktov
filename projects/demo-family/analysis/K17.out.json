@@ -1,0 +1,57 @@
+{
+  "id": "K17",
+  "title": "Групп войдёт в пилот за окно Q2 (конечная база)",
+  "fn": "pool_recruitment",
+  "args": {
+    "pool": 2275.0,
+    "monthly_prob": 0.2,
+    "weeks": 6,
+    "inflow_per_week": 16.658654
+  },
+  "inputs": {
+    "pool": {
+      "ref": "K11",
+      "value": 2275.0
+    },
+    "monthly_prob": {
+      "ref": "A04",
+      "value": 0.2
+    },
+    "weeks": {
+      "ref": "A09",
+      "value": 6
+    },
+    "inflow_per_week": {
+      "ref": "K40",
+      "value": 16.658654
+    }
+  },
+  "result": {
+    "value": 619.0,
+    "unit": "единиц вошло за срок",
+    "formula": "pool*(1-(1-p)^мес) + приток*недель*(1-(1-p)^(мес/2))",
+    "details": {
+      "from_pool": 604.7,
+      "from_inflow": 14.3,
+      "months": 1.38,
+      "share_of_pool": 0.2658
+    }
+  },
+  "inputs_hash": "9956e22e8599f31829dc589f3f99419f2a133b5f283e26adad0695ebfb9039fc",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 315.0,
+    "computed_at": "2026-11-22T15:51:55Z",
+    "inputs": {
+      "names.rate": {
+        "ref": "K12",
+        "value": 105.0
+      },
+      "names.w": {
+        "ref": "A09",
+        "value": 6
+      }
+    }
+  }
+}

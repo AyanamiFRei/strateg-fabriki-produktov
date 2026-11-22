@@ -1,0 +1,9 @@
+{
+  "comment": "Домены, с которых st.py source add --url может загружать страницы. Расширять только по просьбе пользователя: python st.py allow <домен> --reason ...",
+  "domains": ["rosstat.gov.ru", "cbr.ru", "digital.gov.ru", "minfin.gov.ru", "consultant.ru", "garant.ru",
+              "wikipedia.org", "habr.com", "vc.ru", "rbc.ru", "kommersant.ru", "tadviser.ru", "cnews.ru",
+              "megafon.ru", "mts.ru", "beeline.ru", "tele2.ru", "t2.ru", "yota.ru", "gsma.com", "itu.int",
+              "nngroup.com", "measuringu.com", "jobstobedone.org", "producttalk.org", "aprildunford.com",
+              "evanmiller.org", "nih.gov", "bmj.com", "arxiv.org", "github.com", "europa.eu"],
+  "max_bytes": 3000000
+}

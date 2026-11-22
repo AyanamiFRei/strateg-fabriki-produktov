@@ -1,0 +1,18 @@
+{
+  "comment": "Маршрутизация по уровням моделей. Генератор sync подставляет модели в адаптеры. inherit = модель, выбранная в IDE.",
+  "python": "python3",
+  "tiers": {
+    "strong": {"use": "варианты, стратегия, критик, итоговая проверка", "claude": "opus", "codex": null},
+    "mid": {"use": "диагноз, модельные респонденты, черновики", "claude": "sonnet", "codex": null},
+    "cheap": {"use": "извлечение фактов из длинных источников, классификация", "claude": "haiku", "codex": null}
+  },
+  "routing_rules": [
+    {"if": "нет проекта или запрос новый", "skill": "intake"},
+    {"if": "пользователь: продолжи / новый чат", "skill": "resume"},
+    {"if": "файл в materials/inbox или «новые данные»", "skill": "after-decision"},
+    {"if": "«что решать сейчас», сроки, обязательства", "skill": "after-decision"},
+    {"if": "иначе", "skill": "навык текущей стадии из st.py resume"}
+  ],
+  "escalation": ["детерминированная проверка st.py", "одна попытка исправить той же моделью", "критик (сильная модель) один раз", "вопрос человеку"],
+  "optional_judge": {"provider": "Jev (TypeSafe AI)", "env": ["TYPESAFE_API_KEY", "OPENROUTER_API_KEY"], "default": "off", "on_failure": "unchecked (не пропускать)"}
+}

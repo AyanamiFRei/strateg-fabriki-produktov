@@ -1,0 +1,100 @@
+{
+  "id": "K23",
+  "title": "Верхняя граница вклада удержания, руб.: все 8 000 групп с сигналом с начала Q2, предотвращены все ограничения, каждый сохранённый номер иначе ушёл бы",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "g * f * m * mo * p1 * ml * rate",
+    "names": {
+      "g": 8000,
+      "f": 0.2,
+      "m": 1.5,
+      "mo": 9,
+      "p1": 0.12,
+      "ml": 4.5,
+      "rate": 500
+    }
+  },
+  "inputs": {
+    "names.g": {
+      "ref": "F14",
+      "value": 8000
+    },
+    "names.f": {
+      "ref": "A23",
+      "value": 0.2
+    },
+    "names.m": {
+      "ref": "A08",
+      "value": 1.5
+    },
+    "names.mo": {
+      "ref": "A34",
+      "value": 9
+    },
+    "names.p1": {
+      "ref": "A05",
+      "value": 0.12
+    },
+    "names.ml": {
+      "ref": "A35",
+      "value": 4.5
+    },
+    "names.rate": {
+      "ref": "F20",
+      "value": 500
+    }
+  },
+  "result": {
+    "value": 5832000.0,
+    "unit": "",
+    "formula": "g * f * m * mo * p1 * ml * rate",
+    "details": {
+      "inputs": {
+        "g": 8000,
+        "f": 0.2,
+        "m": 1.5,
+        "mo": 9,
+        "p1": 0.12,
+        "ml": 4.5,
+        "rate": 500
+      }
+    }
+  },
+  "inputs_hash": "3975ab5a1c58c0b366b2f4886b8d8e507428f00fbf256351cf71831d55e18937",
+  "computed_at": "2026-11-22T16:48:44Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 1728000.0,
+    "computed_at": "2026-11-22T16:24:04Z",
+    "inputs": {
+      "names.g": {
+        "ref": "F14",
+        "value": 8000
+      },
+      "names.f": {
+        "ref": "A23",
+        "value": 0.2
+      },
+      "names.m": {
+        "ref": "A08",
+        "value": 1.5
+      },
+      "names.mo": {
+        "ref": "A12",
+        "value": 4
+      },
+      "names.p1": {
+        "ref": "A05",
+        "value": 0.12
+      },
+      "names.ml": {
+        "ref": "A11",
+        "value": 3
+      },
+      "names.rate": {
+        "ref": "F20",
+        "value": 500
+      }
+    }
+  }
+}

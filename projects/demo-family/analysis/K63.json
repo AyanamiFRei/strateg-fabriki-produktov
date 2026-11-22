@@ -1,0 +1,16 @@
+{
+ "title": "Создано групп через поддержку",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "c * s",
+  "names": {
+   "c": 0,
+   "s": 0
+  }
+ },
+ "inputs": {
+  "names.c": "K48",
+  "names.s": "A38"
+ },
+ "id": "K63"
+}

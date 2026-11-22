@@ -1,0 +1,36 @@
+{
+  "id": "K58",
+  "title": "Тренд подключённых групп к концу 3-го года без изменений (прирост как в плановом году)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "e + 2 * (e - s)",
+    "names": {
+      "e": 8000,
+      "s": 6500
+    }
+  },
+  "inputs": {
+    "names.e": {
+      "ref": "F14",
+      "value": 8000
+    },
+    "names.s": {
+      "ref": "F13",
+      "value": 6500
+    }
+  },
+  "result": {
+    "value": 11000,
+    "unit": "",
+    "formula": "e + 2 * (e - s)",
+    "details": {
+      "inputs": {
+        "e": 8000,
+        "s": 6500
+      }
+    }
+  },
+  "inputs_hash": "a5124d3d10e16f69a3795e5af8b8d406b534600b97fe049976083fb22877d671",
+  "computed_at": "2026-11-22T16:24:05Z",
+  "kind": "fact"
+}

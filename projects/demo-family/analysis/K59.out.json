@@ -1,0 +1,38 @@
+{
+  "id": "K59",
+  "title": "Мощность обнаружить −3 п.п. к концу Q4",
+  "fn": "power_two_proportions",
+  "args": {
+    "p1": 0.12,
+    "p2": 0.09,
+    "n_per_arm": 1470.428571
+  },
+  "inputs": {
+    "p1": {
+      "ref": "A05",
+      "value": 0.12
+    },
+    "p2": {
+      "ref": "A06",
+      "value": 0.09
+    },
+    "n_per_arm": {
+      "ref": "K44",
+      "value": 1470.428571
+    }
+  },
+  "result": {
+    "value": 0.7563,
+    "unit": "мощность",
+    "formula": "Phi((|p1-p2| - z*se0)/se1)",
+    "details": {
+      "p1": 0.12,
+      "p2": 0.09,
+      "n_per_arm": 1470.428571,
+      "alpha": 0.05
+    }
+  },
+  "inputs_hash": "299156a1a60ab10c980fbe082fbbbf20fe800eaf3f126f832cda5e8688f27e94",
+  "computed_at": "2026-11-22T16:24:13Z",
+  "kind": "forecast"
+}

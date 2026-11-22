@@ -1,0 +1,18 @@
+{
+ "title": "Активные группы за последний месяц (основной)",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "conn * share + extra",
+  "names": {
+   "conn": 0,
+   "share": 0,
+   "extra": 0
+  }
+ },
+ "inputs": {
+  "names.conn": "K28",
+  "names.share": "K04",
+  "names.extra": "K47"
+ },
+ "id": "K29"
+}

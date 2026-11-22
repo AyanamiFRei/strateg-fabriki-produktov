@@ -1,0 +1,40 @@
+{
+  "id": "K15",
+  "title": "Групп для пилота по первому случаю в группе (больше всей подходящей базы K11)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "n * 2",
+    "names": {
+      "n": 1638
+    }
+  },
+  "inputs": {
+    "names.n": {
+      "ref": "K13",
+      "value": 1638
+    }
+  },
+  "result": {
+    "value": 3276,
+    "unit": "",
+    "formula": "n * 2",
+    "details": {
+      "inputs": {
+        "n": 1638
+      }
+    }
+  },
+  "inputs_hash": "d6ab45b29475a7a985af4bfeb0de32200cc60540858cecad17d401693734c9be",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 3276,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.n": {
+        "ref": "K13",
+        "value": 1638
+      }
+    }
+  }
+}

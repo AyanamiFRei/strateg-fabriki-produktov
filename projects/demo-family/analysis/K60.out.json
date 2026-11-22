@@ -1,0 +1,78 @@
+{
+  "id": "K60",
+  "title": "Вклад удержания при реалистичном уходе (3 % после перебоя) и сигнале у всех групп с Q2, руб.",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "g * f * m * mo * p1 * (1 - p2 / p1) * u * ml * rate",
+    "names": {
+      "g": 8000,
+      "f": 0.2,
+      "m": 1.5,
+      "mo": 9,
+      "p1": 0.12,
+      "p2": 0.09,
+      "u": 0.03,
+      "ml": 4.5,
+      "rate": 500
+    }
+  },
+  "inputs": {
+    "names.g": {
+      "ref": "F14",
+      "value": 8000
+    },
+    "names.f": {
+      "ref": "A23",
+      "value": 0.2
+    },
+    "names.m": {
+      "ref": "A08",
+      "value": 1.5
+    },
+    "names.mo": {
+      "ref": "A34",
+      "value": 9
+    },
+    "names.p1": {
+      "ref": "A05",
+      "value": 0.12
+    },
+    "names.p2": {
+      "ref": "A06",
+      "value": 0.09
+    },
+    "names.u": {
+      "ref": "A10",
+      "value": 0.03
+    },
+    "names.ml": {
+      "ref": "A35",
+      "value": 4.5
+    },
+    "names.rate": {
+      "ref": "F20",
+      "value": 500
+    }
+  },
+  "result": {
+    "value": 43740.0,
+    "unit": "",
+    "formula": "g * f * m * mo * p1 * (1 - p2 / p1) * u * ml * rate",
+    "details": {
+      "inputs": {
+        "g": 8000,
+        "f": 0.2,
+        "m": 1.5,
+        "mo": 9,
+        "p1": 0.12,
+        "p2": 0.09,
+        "u": 0.03,
+        "ml": 4.5,
+        "rate": 500
+      }
+    }
+  },
+  "inputs_hash": "024817c587d7d0940c4154f2b98a65e3ab04474dced66392887e12a3edd4f55b",
+  "computed_at": "2026-11-22T16:48:44Z",
+  "kind": "forecast"
+}

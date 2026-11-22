@@ -1,0 +1,42 @@
+{
+  "id": "K46",
+  "title": "Подходящих групп на конец года (база растёт с подключениями)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "g * t * c",
+    "names": {
+      "g": 8000,
+      "t": 0.7,
+      "c": 0.5
+    }
+  },
+  "inputs": {
+    "names.g": {
+      "ref": "K28",
+      "value": 8000
+    },
+    "names.t": {
+      "ref": "A02",
+      "value": 0.7
+    },
+    "names.c": {
+      "ref": "A03",
+      "value": 0.5
+    }
+  },
+  "result": {
+    "value": 2800.0,
+    "unit": "",
+    "formula": "g * t * c",
+    "details": {
+      "inputs": {
+        "g": 8000,
+        "t": 0.7,
+        "c": 0.5
+      }
+    }
+  },
+  "inputs_hash": "b60e040829b17b2bd9dc2080085f9230faa72ad65941b2171105e852673ece59",
+  "computed_at": "2026-11-22T15:52:20Z",
+  "kind": "forecast"
+}

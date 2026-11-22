@@ -1,0 +1,5 @@
+---
+description: Стратег Фабрики продуктов — главный регламент агента
+alwaysApply: true
+---
+Следуй AGENTS.md в корне репозитория. Первая команда каждой сессии: `python st.py resume` (Windows: `py st.py resume`). Навыки — `.agents/skills/<имя>/SKILL.md`.

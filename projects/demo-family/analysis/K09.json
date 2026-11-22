@@ -1,0 +1,13 @@
+{
+ "title": "Охват доступных домохозяйств сейчас",
+ "fn": "required_share",
+ "args": {
+  "target": 0,
+  "base": 0
+ },
+ "inputs": {
+  "target": "F13",
+  "base": "F03"
+ },
+ "id": "K09"
+}

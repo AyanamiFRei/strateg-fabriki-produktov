@@ -1,0 +1,36 @@
+{
+  "id": "K38",
+  "title": "Групп всего при учёте всех номеров группы",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "nn / m * 2",
+    "names": {
+      "nn": 1719.9,
+      "m": 1.5
+    }
+  },
+  "inputs": {
+    "names.nn": {
+      "ref": "K16",
+      "value": 1719.9
+    },
+    "names.m": {
+      "ref": "A08",
+      "value": 1.5
+    }
+  },
+  "result": {
+    "value": 2293.2,
+    "unit": "",
+    "formula": "nn / m * 2",
+    "details": {
+      "inputs": {
+        "nn": 1719.9,
+        "m": 1.5
+      }
+    }
+  },
+  "inputs_hash": "30cb241ffca1d9535f605534f5f58dd6825a219b7260bcadf846de8576506ef8",
+  "computed_at": "2026-11-22T15:52:20Z",
+  "kind": "forecast"
+}

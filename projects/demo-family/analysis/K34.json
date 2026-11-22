@@ -1,0 +1,13 @@
+{
+ "title": "Ориентир 3-го года: доля доступных домохозяйств",
+ "fn": "required_share",
+ "args": {
+  "target": 0,
+  "base": 0
+ },
+ "inputs": {
+  "target": "A22",
+  "base": "F03"
+ },
+ "id": "K34"
+}

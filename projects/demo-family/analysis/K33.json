@@ -1,0 +1,16 @@
+{
+ "title": "Дефицит разработки для общего кабинета в Q2",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "need - have",
+  "names": {
+   "need": 0,
+   "have": 0
+  }
+ },
+ "inputs": {
+  "names.need": "A20",
+  "names.have": "F26"
+ },
+ "id": "K33"
+}

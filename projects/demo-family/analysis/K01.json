@@ -1,0 +1,16 @@
+{
+ "title": "Чистый прирост групп до цели",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "t - s",
+  "names": {
+   "t": 0,
+   "s": 0
+  }
+ },
+ "inputs": {
+  "names.t": "F15",
+  "names.s": "F13"
+ },
+ "id": "K01"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "K07",
+  "title": "Отставание базового года по активным группам",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "plan - est",
+    "names": {
+      "plan": 5000,
+      "est": 4000
+    }
+  },
+  "inputs": {
+    "names.plan": {
+      "ref": "F09",
+      "value": 5000
+    },
+    "names.est": {
+      "ref": "F10",
+      "value": 4000
+    }
+  },
+  "result": {
+    "value": 1000,
+    "unit": "",
+    "formula": "plan - est",
+    "details": {
+      "inputs": {
+        "plan": 5000,
+        "est": 4000
+      }
+    }
+  },
+  "inputs_hash": "7d6ee1a01ec2cdafa6ade06f5b497a54552574424dc5b4eeedd6803776610129",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "fact",
+  "previous": {
+    "value": 1000,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.plan": {
+        "ref": "F09",
+        "value": 5000
+      },
+      "names.est": {
+        "ref": "F10",
+        "value": 4000
+      }
+    }
+  }
+}

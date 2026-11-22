@@ -1,0 +1,50 @@
+{
+  "id": "K02",
+  "title": "Разрыв цели по группам и прогноза без изменений",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "t - n",
+    "names": {
+      "t": 12000,
+      "n": 8000
+    }
+  },
+  "inputs": {
+    "names.t": {
+      "ref": "F15",
+      "value": 12000
+    },
+    "names.n": {
+      "ref": "F14",
+      "value": 8000
+    }
+  },
+  "result": {
+    "value": 4000,
+    "unit": "",
+    "formula": "t - n",
+    "details": {
+      "inputs": {
+        "t": 12000,
+        "n": 8000
+      }
+    }
+  },
+  "inputs_hash": "3e9bcb2f5e58fd14adb49b1d43f26cf46ee24079f333a63c79f288d7c65a55e9",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "fact",
+  "previous": {
+    "value": 4000,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.t": {
+        "ref": "F15",
+        "value": 12000
+      },
+      "names.n": {
+        "ref": "F14",
+        "value": 8000
+      }
+    }
+  }
+}

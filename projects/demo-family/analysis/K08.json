@@ -1,0 +1,16 @@
+{
+ "title": "Отставание базового года по прибыли, млн руб.",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "plan - est",
+  "names": {
+   "plan": 0,
+   "est": 0
+  }
+ },
+ "inputs": {
+  "names.plan": "F05",
+  "names.est": "F06"
+ },
+ "id": "K08"
+}

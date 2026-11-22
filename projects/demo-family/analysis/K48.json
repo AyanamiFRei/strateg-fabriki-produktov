@@ -1,0 +1,16 @@
+{
+ "title": "Создано групп за год (новые подключённые / доля принявших)",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "conn / a",
+  "names": {
+   "conn": 0,
+   "a": 0
+  }
+ },
+ "inputs": {
+  "names.conn": "K26",
+  "names.a": "A17"
+ },
+ "id": "K48"
+}

@@ -1,0 +1,16 @@
+{
+ "title": "Выбытие групп с сигналом",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "churn - saved",
+  "names": {
+   "churn": 0,
+   "saved": 0
+  }
+ },
+ "inputs": {
+  "names.churn": "A16",
+  "names.saved": "A15"
+ },
+ "id": "K27"
+}

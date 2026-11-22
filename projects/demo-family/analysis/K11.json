@@ -1,0 +1,18 @@
+{
+ "title": "Подходящие для пилота группы",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "g * t * c",
+  "names": {
+   "g": 0,
+   "t": 0,
+   "c": 0
+  }
+ },
+ "inputs": {
+  "names.g": "F13",
+  "names.t": "A02",
+  "names.c": "A03"
+ },
+ "id": "K11"
+}

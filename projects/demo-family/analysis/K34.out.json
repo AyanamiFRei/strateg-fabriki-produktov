@@ -1,0 +1,45 @@
+{
+  "id": "K34",
+  "title": "Ориентир 3-го года: доля доступных домохозяйств",
+  "fn": "required_share",
+  "args": {
+    "target": 20000,
+    "base": 100000
+  },
+  "inputs": {
+    "target": {
+      "ref": "A22",
+      "value": 20000
+    },
+    "base": {
+      "ref": "F03",
+      "value": 100000
+    }
+  },
+  "result": {
+    "value": 0.2,
+    "unit": "доля",
+    "formula": "share = target / base",
+    "details": {
+      "target": 20000,
+      "base": 100000
+    }
+  },
+  "inputs_hash": "c97ae3873d1a0ef6e6baf515e7a22e39dd61bfe793380b88421b6f02f22fd5f0",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 0.2,
+    "computed_at": "2026-11-22T15:52:20Z",
+    "inputs": {
+      "target": {
+        "ref": "A22",
+        "value": 20000
+      },
+      "base": {
+        "ref": "F03",
+        "value": 100000
+      }
+    }
+  }
+}

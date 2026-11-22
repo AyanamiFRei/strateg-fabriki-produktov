@@ -1,0 +1,50 @@
+{
+  "id": "K33",
+  "title": "Дефицит разработки для общего кабинета в Q2",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "need - have",
+    "names": {
+      "need": 7,
+      "have": 3
+    }
+  },
+  "inputs": {
+    "names.need": {
+      "ref": "A20",
+      "value": 7
+    },
+    "names.have": {
+      "ref": "F26",
+      "value": 3
+    }
+  },
+  "result": {
+    "value": 4,
+    "unit": "",
+    "formula": "need - have",
+    "details": {
+      "inputs": {
+        "need": 7,
+        "have": 3
+      }
+    }
+  },
+  "inputs_hash": "3930fad62046f27fc539ab98d842b956472c4a750b3e1641114eb23cdc3f0aa4",
+  "computed_at": "2026-11-22T15:52:20Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 4,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.need": {
+        "ref": "A20",
+        "value": 7
+      },
+      "names.have": {
+        "ref": "F26",
+        "value": 3
+      }
+    }
+  }
+}

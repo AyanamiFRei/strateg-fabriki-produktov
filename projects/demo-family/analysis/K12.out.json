@@ -1,0 +1,50 @@
+{
+  "id": "K12",
+  "title": "Впервые подходящих групп в неделю",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "pool * r * 12 / 52",
+    "names": {
+      "pool": 2275.0,
+      "r": 0.2
+    }
+  },
+  "inputs": {
+    "names.pool": {
+      "ref": "K11",
+      "value": 2275.0
+    },
+    "names.r": {
+      "ref": "A04",
+      "value": 0.2
+    }
+  },
+  "result": {
+    "value": 105.0,
+    "unit": "",
+    "formula": "pool * r * 12 / 52",
+    "details": {
+      "inputs": {
+        "pool": 2275.0,
+        "r": 0.2
+      }
+    }
+  },
+  "inputs_hash": "c2e24a84bf9c5af8de8b92e565dedf0f411d003f5713e2a9b882961a5cca0268",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 105.0,
+    "computed_at": "2026-11-22T15:51:55Z",
+    "inputs": {
+      "names.pool": {
+        "ref": "K11",
+        "value": 2275.0
+      },
+      "names.r": {
+        "ref": "A04",
+        "value": 0.2
+      }
+    }
+  }
+}

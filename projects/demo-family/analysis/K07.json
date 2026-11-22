@@ -1,0 +1,16 @@
+{
+ "title": "Отставание базового года по активным группам",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "plan - est",
+  "names": {
+   "plan": 0,
+   "est": 0
+  }
+ },
+ "inputs": {
+  "names.plan": "F09",
+  "names.est": "F10"
+ },
+ "id": "K07"
+}

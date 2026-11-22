@@ -1,0 +1,70 @@
+{
+  "id": "K49",
+  "title": "Случаев ограничения на номерах подходящих групп за месяц без сигнала (для правила Q01)",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "pool * m * f * p",
+    "names": {
+      "pool": 2275.0,
+      "m": 1.5,
+      "f": 0.2,
+      "p": 0.12
+    }
+  },
+  "inputs": {
+    "names.pool": {
+      "ref": "K11",
+      "value": 2275.0
+    },
+    "names.m": {
+      "ref": "A08",
+      "value": 1.5
+    },
+    "names.f": {
+      "ref": "A23",
+      "value": 0.2
+    },
+    "names.p": {
+      "ref": "A05",
+      "value": 0.12
+    }
+  },
+  "result": {
+    "value": 81.9,
+    "unit": "",
+    "formula": "pool * m * f * p",
+    "details": {
+      "inputs": {
+        "pool": 2275.0,
+        "m": 1.5,
+        "f": 0.2,
+        "p": 0.12
+      }
+    }
+  },
+  "inputs_hash": "ef626d5363039bf12c4c6552d5af01a865ab203c94fcddb35c6858d69fcd203c",
+  "computed_at": "2026-11-22T16:24:13Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 81.9,
+    "computed_at": "2026-11-22T15:52:20Z",
+    "inputs": {
+      "names.pool": {
+        "ref": "K11",
+        "value": 2275.0
+      },
+      "names.m": {
+        "ref": "A08",
+        "value": 1.5
+      },
+      "names.f": {
+        "ref": "A23",
+        "value": 0.2
+      },
+      "names.p": {
+        "ref": "A05",
+        "value": 0.12
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"id": "K59", "title": "Мощность обнаружить −3 п.п. к концу Q4", "fn": "power_two_proportions", "args": {"p1": 0, "p2": 0, "n_per_arm": 0}, "inputs": {"p1": "A05", "p2": "A06", "n_per_arm": "K44"}}

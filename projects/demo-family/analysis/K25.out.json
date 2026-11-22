@@ -1,0 +1,50 @@
+{
+  "id": "K25",
+  "title": "Изменение прибыли планового года от O02 (вклад − прямые расходы), руб.",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "gain - cost",
+    "names": {
+      "gain": 1667.466,
+      "cost": 50000
+    }
+  },
+  "inputs": {
+    "names.gain": {
+      "ref": "K22",
+      "value": 1667.466
+    },
+    "names.cost": {
+      "ref": "A13",
+      "value": 50000
+    }
+  },
+  "result": {
+    "value": -48332.534,
+    "unit": "",
+    "formula": "gain - cost",
+    "details": {
+      "inputs": {
+        "gain": 1667.466,
+        "cost": 50000
+      }
+    }
+  },
+  "inputs_hash": "877935c5e4fee29b925eac12bb62ccc2c92e83997fa79846e54cefbba6936e15",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": -45024.575,
+    "computed_at": "2026-11-22T15:52:19Z",
+    "inputs": {
+      "names.gain": {
+        "ref": "K22",
+        "value": 4975.425
+      },
+      "names.cost": {
+        "ref": "A13",
+        "value": 50000
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"id":"K01","title":"Месяцев до цели","fn":"break_even_months","args":{"target_profit":0,"rate":0},"inputs":{"target_profit":"F02","rate":"F01"}}

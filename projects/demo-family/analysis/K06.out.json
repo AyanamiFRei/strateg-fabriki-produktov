@@ -1,0 +1,55 @@
+{
+  "id": "K06",
+  "title": "Доп. оплаченных месяцев для закрытия разрыва (с прямыми расходами)",
+  "fn": "break_even_months",
+  "args": {
+    "target_profit": 6000000,
+    "rate": 500,
+    "direct_costs": 50000
+  },
+  "inputs": {
+    "target_profit": {
+      "ref": "K05",
+      "value": 6000000
+    },
+    "rate": {
+      "ref": "F20",
+      "value": 500
+    },
+    "direct_costs": {
+      "ref": "A13",
+      "value": 50000
+    }
+  },
+  "result": {
+    "value": 12100,
+    "unit": "доп. оплаченных месяцев",
+    "formula": "ceil((target + direct_costs) / rate)",
+    "details": {
+      "target_profit": 6000000,
+      "direct_costs": 50000,
+      "rate": 500
+    }
+  },
+  "inputs_hash": "3f395f470d720fcecd8af8b7ab411b3e9608f35cf1e44bf7574499b848e51cfa",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 12100,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "target_profit": {
+        "ref": "K05",
+        "value": 6000000
+      },
+      "rate": {
+        "ref": "F20",
+        "value": 500
+      },
+      "direct_costs": {
+        "ref": "A13",
+        "value": 50000
+      }
+    }
+  }
+}

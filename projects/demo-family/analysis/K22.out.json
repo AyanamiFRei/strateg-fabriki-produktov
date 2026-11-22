@@ -1,0 +1,47 @@
+{
+  "id": "K22",
+  "title": "Вклад удержания в прибыль, руб. (основной)",
+  "fn": "extra_paid_months_profit",
+  "args": {
+    "numbers": 3.334932,
+    "extra_months": 1,
+    "rate": 500
+  },
+  "inputs": {
+    "numbers": {
+      "ref": "K21",
+      "value": 3.334932
+    },
+    "rate": {
+      "ref": "F20",
+      "value": 500
+    }
+  },
+  "result": {
+    "value": 1667.466,
+    "unit": "руб.",
+    "formula": "numbers * extra_months * rate",
+    "details": {
+      "numbers": 3.334932,
+      "extra_months": 1,
+      "rate": 500
+    }
+  },
+  "inputs_hash": "187eb805b710b9fbbc8899e4ae647cc0861abd89e9589f29c46ac1234bc4de07",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 4975.425,
+    "computed_at": "2026-11-22T15:52:19Z",
+    "inputs": {
+      "numbers": {
+        "ref": "K21",
+        "value": 9.95085
+      },
+      "rate": {
+        "ref": "F20",
+        "value": 500
+      }
+    }
+  }
+}

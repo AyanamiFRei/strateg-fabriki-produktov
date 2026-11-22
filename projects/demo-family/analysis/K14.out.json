@@ -1,0 +1,45 @@
+{
+  "id": "K14",
+  "title": "Эффект плана дизайна при учёте всех номеров группы",
+  "fn": "design_effect",
+  "args": {
+    "m": 1.5,
+    "icc": 0.1
+  },
+  "inputs": {
+    "m": {
+      "ref": "A08",
+      "value": 1.5
+    },
+    "icc": {
+      "ref": "A07",
+      "value": 0.1
+    }
+  },
+  "result": {
+    "value": 1.05,
+    "unit": "множитель",
+    "formula": "DEFF = 1 + (m-1)*ICC",
+    "details": {
+      "m": 1.5,
+      "icc": 0.1
+    }
+  },
+  "inputs_hash": "f3abc82e72a59ddd65bbc9d234c8e308cb21eaffa281efb4f40a89a28c80e63b",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 1.05,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "m": {
+        "ref": "A08",
+        "value": 1.5
+      },
+      "icc": {
+        "ref": "A07",
+        "value": 0.1
+      }
+    }
+  }
+}

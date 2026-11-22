@@ -1,0 +1,60 @@
+{
+  "id": "K11",
+  "title": "Подходящие для пилота группы",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "g * t * c",
+    "names": {
+      "g": 6500,
+      "t": 0.7,
+      "c": 0.5
+    }
+  },
+  "inputs": {
+    "names.g": {
+      "ref": "F13",
+      "value": 6500
+    },
+    "names.t": {
+      "ref": "A02",
+      "value": 0.7
+    },
+    "names.c": {
+      "ref": "A03",
+      "value": 0.5
+    }
+  },
+  "result": {
+    "value": 2275.0,
+    "unit": "",
+    "formula": "g * t * c",
+    "details": {
+      "inputs": {
+        "g": 6500,
+        "t": 0.7,
+        "c": 0.5
+      }
+    }
+  },
+  "inputs_hash": "23010b4e4ba39605b57d6719df8e65d90bc6b226aa9f6fc7cf4610e98002450a",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 2275.0,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.g": {
+        "ref": "F13",
+        "value": 6500
+      },
+      "names.t": {
+        "ref": "A02",
+        "value": 0.7
+      },
+      "names.c": {
+        "ref": "A03",
+        "value": 0.5
+      }
+    }
+  }
+}

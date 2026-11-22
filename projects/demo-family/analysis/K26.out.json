@@ -1,0 +1,60 @@
+{
+  "id": "K26",
+  "title": "Новые группы за год без изменений",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "end - start + churn",
+    "names": {
+      "end": 8000,
+      "start": 6500,
+      "churn": 975
+    }
+  },
+  "inputs": {
+    "names.end": {
+      "ref": "F14",
+      "value": 8000
+    },
+    "names.start": {
+      "ref": "F13",
+      "value": 6500
+    },
+    "names.churn": {
+      "ref": "A16",
+      "value": 975
+    }
+  },
+  "result": {
+    "value": 2475,
+    "unit": "",
+    "formula": "end - start + churn",
+    "details": {
+      "inputs": {
+        "end": 8000,
+        "start": 6500,
+        "churn": 975
+      }
+    }
+  },
+  "inputs_hash": "ae13adabf3ed2274bf79fe4ef545c4d904343551a44100a837522f7f0babc83b",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 2475,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "names.end": {
+        "ref": "F14",
+        "value": 8000
+      },
+      "names.start": {
+        "ref": "F13",
+        "value": 6500
+      },
+      "names.churn": {
+        "ref": "A16",
+        "value": 975
+      }
+    }
+  }
+}

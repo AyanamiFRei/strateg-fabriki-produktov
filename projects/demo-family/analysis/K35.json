@@ -1,0 +1,13 @@
+{
+ "title": "Разница порога в п.п. и %",
+ "fn": "pp_vs_relative",
+ "args": {
+  "p_before": 0,
+  "p_after": 0
+ },
+ "inputs": {
+  "p_before": "A05",
+  "p_after": "A06"
+ },
+ "id": "K35"
+}

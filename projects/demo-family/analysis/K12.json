@@ -1,0 +1,16 @@
+{
+ "title": "Впервые подходящих групп в неделю",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "pool * r * 12 / 52",
+  "names": {
+   "pool": 0,
+   "r": 0
+  }
+ },
+ "inputs": {
+  "names.pool": "K11",
+  "names.r": "A04"
+ },
+ "id": "K12"
+}

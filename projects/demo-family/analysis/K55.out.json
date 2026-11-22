@@ -1,0 +1,31 @@
+{
+  "id": "K55",
+  "title": "Охват доступных домохозяйств подключёнными группами на конец года",
+  "fn": "required_share",
+  "args": {
+    "target": 8000,
+    "base": 100000
+  },
+  "inputs": {
+    "target": {
+      "ref": "K28",
+      "value": 8000
+    },
+    "base": {
+      "ref": "F03",
+      "value": 100000
+    }
+  },
+  "result": {
+    "value": 0.08,
+    "unit": "доля",
+    "formula": "share = target / base",
+    "details": {
+      "target": 8000,
+      "base": 100000
+    }
+  },
+  "inputs_hash": "22ec5d8497676d475092c399f2a2ff3ab82d239a2284c5b66c4f660a424d3e51",
+  "computed_at": "2026-11-22T16:10:00Z",
+  "kind": "forecast"
+}

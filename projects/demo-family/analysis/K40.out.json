@@ -1,0 +1,42 @@
+{
+  "id": "K40",
+  "title": "Приток новых подходящих групп в неделю",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "new * t * c / 52",
+    "names": {
+      "new": 2475,
+      "t": 0.7,
+      "c": 0.5
+    }
+  },
+  "inputs": {
+    "names.new": {
+      "ref": "K26",
+      "value": 2475
+    },
+    "names.t": {
+      "ref": "A02",
+      "value": 0.7
+    },
+    "names.c": {
+      "ref": "A03",
+      "value": 0.5
+    }
+  },
+  "result": {
+    "value": 16.658654,
+    "unit": "",
+    "formula": "new * t * c / 52",
+    "details": {
+      "inputs": {
+        "new": 2475,
+        "t": 0.7,
+        "c": 0.5
+      }
+    }
+  },
+  "inputs_hash": "3a3a90e6e956623a7897b63c5f04a4c615471f59ad793a59eea18e2013caa68f",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "forecast"
+}

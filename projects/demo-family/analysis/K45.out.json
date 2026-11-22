@@ -1,0 +1,33 @@
+{
+  "id": "K45",
+  "title": "Минимальный обнаружимый эффект к концу Q4",
+  "fn": "mde_for_n",
+  "args": {
+    "p1": 0.12,
+    "n_per_arm": 1470.428571
+  },
+  "inputs": {
+    "p1": {
+      "ref": "A05",
+      "value": 0.12
+    },
+    "n_per_arm": {
+      "ref": "K44",
+      "value": 1470.428571
+    }
+  },
+  "result": {
+    "value": 3.156,
+    "unit": "п.п.",
+    "formula": "наименьшее |p1-p2|, при котором n_two_proportions(p1,p2) <= n",
+    "details": {
+      "p1": 0.12,
+      "p2": 0.08844,
+      "n_per_arm": 1470.428571,
+      "rel": 0.263
+    }
+  },
+  "inputs_hash": "dc36db43422c28bede8410e92c6ea1b09f3ac58981cec5f16a3fb9faba37d540",
+  "computed_at": "2026-11-22T15:52:20Z",
+  "kind": "forecast"
+}

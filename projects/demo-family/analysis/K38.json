@@ -1,0 +1,16 @@
+{
+ "title": "Групп всего при учёте всех номеров группы",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "nn / m * 2",
+  "names": {
+   "nn": 0,
+   "m": 0
+  }
+ },
+ "inputs": {
+  "names.nn": "K16",
+  "names.m": "A08"
+ },
+ "id": "K38"
+}

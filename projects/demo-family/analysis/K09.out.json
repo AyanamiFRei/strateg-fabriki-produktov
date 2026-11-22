@@ -1,0 +1,45 @@
+{
+  "id": "K09",
+  "title": "Охват доступных домохозяйств сейчас",
+  "fn": "required_share",
+  "args": {
+    "target": 6500,
+    "base": 100000
+  },
+  "inputs": {
+    "target": {
+      "ref": "F13",
+      "value": 6500
+    },
+    "base": {
+      "ref": "F03",
+      "value": 100000
+    }
+  },
+  "result": {
+    "value": 0.065,
+    "unit": "доля",
+    "formula": "share = target / base",
+    "details": {
+      "target": 6500,
+      "base": 100000
+    }
+  },
+  "inputs_hash": "4cc1e4b4e704bd44a2d45f7cf25be97959a0d5acea4688f038a680e9af2b6237",
+  "computed_at": "2026-11-22T15:52:19Z",
+  "kind": "fact",
+  "previous": {
+    "value": 0.065,
+    "computed_at": "2026-11-22T15:39:32Z",
+    "inputs": {
+      "target": {
+        "ref": "F13",
+        "value": 6500
+      },
+      "base": {
+        "ref": "F03",
+        "value": 100000
+      }
+    }
+  }
+}

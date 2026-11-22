@@ -1,0 +1,17 @@
+{
+  "file": "rework-1.jsonl",
+  "imported_at": "2026-11-22T15:51:53Z",
+  "tmp_map": {
+    "a_freq": "A23",
+    "a_ctrl": "A24",
+    "a_long": "A25"
+  },
+  "ids": [
+    "A04",
+    "A14",
+    "A15",
+    "A23",
+    "A24",
+    "A25"
+  ]
+}

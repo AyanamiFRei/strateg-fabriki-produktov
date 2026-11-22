@@ -1,0 +1,50 @@
+{
+  "id": "K52",
+  "title": "Разрыв активации за 14 дней до цели, доля",
+  "fn": "arithmetic",
+  "args": {
+    "expr": "t - f",
+    "names": {
+      "t": 0.6,
+      "f": 0.4543
+    }
+  },
+  "inputs": {
+    "names.t": {
+      "ref": "F19",
+      "value": 0.6
+    },
+    "names.f": {
+      "ref": "K31",
+      "value": 0.4543
+    }
+  },
+  "result": {
+    "value": 0.1457,
+    "unit": "",
+    "formula": "t - f",
+    "details": {
+      "inputs": {
+        "t": 0.6,
+        "f": 0.4543
+      }
+    }
+  },
+  "inputs_hash": "80919f88131b28e15a42d098890cb68dbda49379d66780f0ab0fd59b9e7ac3c3",
+  "computed_at": "2026-11-22T16:24:04Z",
+  "kind": "forecast",
+  "previous": {
+    "value": 0.138,
+    "computed_at": "2026-11-22T15:52:54Z",
+    "inputs": {
+      "names.t": {
+        "ref": "F19",
+        "value": 0.6
+      },
+      "names.f": {
+        "ref": "K31",
+        "value": 0.462
+      }
+    }
+  }
+}

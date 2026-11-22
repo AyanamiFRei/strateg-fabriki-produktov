@@ -1,0 +1,14 @@
+{
+ "title": "Вклад удержания в прибыль, руб. (основной)",
+ "fn": "extra_paid_months_profit",
+ "args": {
+  "numbers": 0,
+  "extra_months": 1,
+  "rate": 0
+ },
+ "inputs": {
+  "numbers": "K21",
+  "rate": "F20"
+ },
+ "id": "K22"
+}

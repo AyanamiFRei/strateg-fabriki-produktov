@@ -1,0 +1,18 @@
+{
+ "title": "Новые группы за год без изменений",
+ "fn": "arithmetic",
+ "args": {
+  "expr": "end - start + churn",
+  "names": {
+   "end": 0,
+   "start": 0,
+   "churn": 0
+  }
+ },
+ "inputs": {
+  "names.end": "F14",
+  "names.start": "F13",
+  "names.churn": "A16"
+ },
+ "id": "K26"
+}
