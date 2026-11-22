@@ -202,12 +202,10 @@ def main() -> None:
                         raise RuntimeError("SAPI produced incompatible audio formats")
                     frames = clip.readframes(clip.getnframes())
                     combined.writeframesraw(frames)
-                    with wave.open(str(wav_path), "rb") as duration_check:
-                        clip_seconds = duration_check.getnframes() / duration_check.getframerate()
-                    pad_frames = durations[i] - clip_seconds
-                    silence = b"\x00" * int(pad_frames * params.framerate * params.nchannels * params.sampwidth)
+                    pad_frames = durations[i] * params.framerate - clip_params.nframes
+                    silence = b"\x00" * pad_frames * params.nchannels * params.sampwidth
                     combined.writeframesraw(silence)
-        subprocess.run([args.ffmpeg, "-y", "-i", str(silent_video), "-i", str(audio), "-c:v", "libopenh264", "-b:v", "1800k", "-c:a", "aac", "-b:a", "128k", "-shortest", str(output)], check=True)
+        subprocess.run([args.ffmpeg, "-hide_banner", "-loglevel", "warning", "-y", "-i", str(silent_video), "-i", str(audio), "-c:v", "libopenh264", "-b:v", "1800k", "-c:a", "aac", "-b:a", "128k", "-shortest", str(output)], check=True)
     print(f"Created {output}")
 
 
